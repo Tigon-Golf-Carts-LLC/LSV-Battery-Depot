@@ -3,7 +3,7 @@ import { Battery, Phone } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-gray-700 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Main Footer Content */}
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
@@ -35,7 +35,7 @@ export default function Footer() {
                 <Phone className="h-6 w-6 mr-2" />
                 1-844-844-6638
               </a>
-              <p className="text-sm text-orange-100 mt-1">Monday - Friday: 8AM - 6PM EST</p>
+              <p className="text-sm text-orange-100 mt-1">Monday - Saturday: 8AM - 5PM EST</p>
             </div>
           </div>
 
