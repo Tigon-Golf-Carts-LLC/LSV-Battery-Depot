@@ -116,9 +116,11 @@ export default function ShoppingCartComponent() {
                 <div className="space-y-4">
                   {cartItems.map((item) => (
                     <div key={item.id} className="flex gap-4 p-4 border rounded-lg">
-                      <div className="w-16 h-16 bg-tigon-red/10 rounded flex items-center justify-center">
-                        <Battery className="h-8 w-8 text-tigon-red" />
-                      </div>
+                      <img
+                        src="/attached_assets/TIGON BATTERIES TRANS BG (2)_1755533020429.png"
+                        alt={item.product?.name || "Battery"}
+                        className="w-16 h-16 object-contain rounded"
+                      />
                       <div className="flex-1">
                         <h4 className="font-semibold text-sm">{item.product?.name}</h4>
                         <p className="text-xs text-gray-500">{item.product?.technology}</p>

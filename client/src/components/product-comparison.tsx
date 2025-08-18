@@ -47,9 +47,11 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
             </Button>
             
             <CardContent className="p-4">
-              <div className="w-full h-32 bg-tigon-red/10 rounded mb-3 flex items-center justify-center">
-                <Battery className="h-12 w-12 text-tigon-red" />
-              </div>
+              <img 
+                src="/attached_assets/TIGON BATTERIES TRANS BG (2)_1755533020429.png"
+                alt={product.altText}
+                className="w-full h-32 object-contain rounded mb-3 bg-gray-50"
+              />
               
               <h4 className="font-semibold text-sm mb-2">{product.name}</h4>
               <Badge variant="outline" className="mb-2">{product.technology}</Badge>

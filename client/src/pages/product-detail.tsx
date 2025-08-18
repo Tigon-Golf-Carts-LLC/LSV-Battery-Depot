@@ -151,9 +151,9 @@ export default function ProductDetail() {
             <Card className="overflow-hidden">
               <div className="relative">
                 <img 
-                  src=""
+                  src="/attached_assets/TIGON BATTERIES TRANS BG (2)_1755533020429.png"
                   alt={product.altText}
-                  className="w-full h-96 object-cover"
+                  className="w-full h-96 object-contain bg-gray-50"
                 />
                 <Badge className="absolute top-4 left-4 bg-tigon-green text-white">
                   {product.inStock ? "In Stock" : "Out of Stock"}

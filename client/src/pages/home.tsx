@@ -24,7 +24,7 @@ export default function Home() {
       name: "Golf Cart Batteries",
       slug: "golf-cart",
       description: "Premium Golf Cart Batteries for reliable performance on the course. 6V, 8V & 12V configurations available.",
-      image: "",
+      image: "/attached_assets/TIGON BATTERIES TRANS BG (2)_1755533020429.png",
       icon: "🏌️",
       count: 24
     },
@@ -32,7 +32,7 @@ export default function Home() {
       name: "LSV Batteries",
       slug: "lsv",
       description: "Low Speed Vehicle (LSV) Batteries designed for neighborhood transportation and utility applications.",
-      image: "",
+      image: "/attached_assets/TIGON BATTERIES TRANS BG (2)_1755533020429.png",
       icon: "🚗",
       count: 24
     },
@@ -40,7 +40,7 @@ export default function Home() {
       name: "NEV Batteries",
       slug: "nev",
       description: "Neighborhood Electric Vehicle (NEV) Batteries meeting DOT regulations for street-legal operation.",
-      image: "",
+      image: "/attached_assets/TIGON BATTERIES TRANS BG (2)_1755533020429.png",
       icon: "🏠",
       count: 24
     },
@@ -48,7 +48,7 @@ export default function Home() {
       name: "MSV Batteries",
       slug: "msv",
       description: "Medium Speed Vehicle (MSV) Batteries for enhanced performance and extended range applications.",
-      image: "",
+      image: "/attached_assets/TIGON BATTERIES TRANS BG (2)_1755533020429.png",
       icon: "⚡",
       count: 24
     }
@@ -123,21 +123,21 @@ export default function Home() {
       description: "Everything you need to know about Golf Cart Batteries: voltage configurations, TIGON Batteries options, maintenance tips and installation.",
       readTime: "5 min read",
       category: "GUIDE",
-      image: ""
+      image: "/attached_assets/TIGON BATTERIES TRANS BG (2)_1755533020429.png"
     },
     {
       title: "Understanding Battery Technologies",
       description: "Compare Flooded Lead-Acid, AGM, Gel and Lithium technologies. TIGON Batteries explains pros, cons and best applications.",
       readTime: "8 min read",
       category: "TECHNICAL",
-      image: ""
+      image: "/attached_assets/TIGON BATTERIES TRANS BG (2)_1755533020429.png"
     },
     {
       title: "Vehicle-Specific Battery Requirements",
       description: "Learn the power needs for Golf Carts, LSV, NEV & MSV applications. TIGON Batteries selection guide for each vehicle type.",
       readTime: "6 min read",
       category: "VEHICLES",
-      image: ""
+      image: "/attached_assets/TIGON BATTERIES TRANS BG (2)_1755533020429.png"
     }
   ];
 
@@ -165,7 +165,7 @@ export default function Home() {
                 <img 
                   src={category.image}
                   alt={`${category.name} by TIGON`}
-                  className="w-full h-48 object-cover" 
+                  className="w-full h-48 object-contain bg-gray-50" 
                 />
                 <CardContent className="p-6">
                   <div className="flex items-center mb-3">
@@ -310,7 +310,7 @@ export default function Home() {
                 <img 
                   src={article.image}
                   alt={article.title}
-                  className="w-full h-48 object-cover" 
+                  className="w-full h-48 object-contain bg-gray-50" 
                 />
                 <CardContent className="p-6">
                   <div className="flex items-center mb-3">

@@ -51,10 +51,12 @@ export default function ProductCard({ product, showBestSeller = false }: Product
 
   return (
     <Card className="card-hover overflow-hidden border-2 border-transparent hover:border-tigon-red">
-      <div className="relative bg-gradient-to-br from-tigon-red/5 to-tigon-orange/5 p-6 text-center">
-        <div className="bg-tigon-red/10 w-20 h-20 rounded-full mx-auto mb-4 flex items-center justify-center">
-          <Battery className="h-10 w-10 text-tigon-red" />
-        </div>
+      <div className="relative">
+        <img 
+          src="/attached_assets/TIGON BATTERIES TRANS BG (2)_1755533020429.png" 
+          alt={product.altText}
+          className="w-full h-48 object-contain bg-gray-50" 
+        />
         {showBestSeller && (
           <Badge className="absolute top-4 left-4 bg-tigon-green text-white">
             Best Seller
