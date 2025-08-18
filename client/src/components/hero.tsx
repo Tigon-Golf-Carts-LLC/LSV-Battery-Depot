@@ -30,7 +30,7 @@ export default function Hero() {
                 className="bg-white text-tigon-red px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors flex items-center justify-center border-2 border-white"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call Expert: 1-844-844-6638
+                Speak To A Expert
               </a>
             </div>
             <div className="mt-6 flex items-center text-blue-100">
