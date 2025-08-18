@@ -189,14 +189,14 @@ export default function Products() {
                 {/* Voltage Filter */}
                 <div className="mb-6">
                   <label className="block text-sm font-medium mb-2">Voltage</label>
-                  <Select value={filters.voltage || ""} onValueChange={(value) => 
-                    setFilters(prev => ({ ...prev, voltage: value || undefined }))
+                  <Select value={filters.voltage || "all"} onValueChange={(value) => 
+                    setFilters(prev => ({ ...prev, voltage: value === "all" ? undefined : value }))
                   }>
                     <SelectTrigger>
                       <SelectValue placeholder="All Voltages" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="">All Voltages</SelectItem>
+                      <SelectItem value="all">All Voltages</SelectItem>
                       {uniqueVoltages.map(voltage => (
                         <SelectItem key={voltage} value={voltage}>{voltage}V</SelectItem>
                       ))}
@@ -207,14 +207,14 @@ export default function Products() {
                 {/* Technology Filter */}
                 <div className="mb-6">
                   <label className="block text-sm font-medium mb-2">Technology</label>
-                  <Select value={filters.technology || ""} onValueChange={(value) => 
-                    setFilters(prev => ({ ...prev, technology: value || undefined }))
+                  <Select value={filters.technology || "all"} onValueChange={(value) => 
+                    setFilters(prev => ({ ...prev, technology: value === "all" ? undefined : value }))
                   }>
                     <SelectTrigger>
                       <SelectValue placeholder="All Technologies" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="">All Technologies</SelectItem>
+                      <SelectItem value="all">All Technologies</SelectItem>
                       {uniqueTechnologies.map(tech => (
                         <SelectItem key={tech} value={tech}>{tech}</SelectItem>
                       ))}
@@ -225,14 +225,14 @@ export default function Products() {
                 {/* Series Filter */}
                 <div className="mb-6">
                   <label className="block text-sm font-medium mb-2">Series</label>
-                  <Select value={filters.series || ""} onValueChange={(value) => 
-                    setFilters(prev => ({ ...prev, series: value || undefined }))
+                  <Select value={filters.series || "all"} onValueChange={(value) => 
+                    setFilters(prev => ({ ...prev, series: value === "all" ? undefined : value }))
                   }>
                     <SelectTrigger>
                       <SelectValue placeholder="All Series" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="">All Series</SelectItem>
+                      <SelectItem value="all">All Series</SelectItem>
                       {uniqueSeries.map(series => (
                         <SelectItem key={series} value={series}>{series}</SelectItem>
                       ))}
