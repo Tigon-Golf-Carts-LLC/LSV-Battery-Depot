@@ -174,7 +174,13 @@ export default function ProductDetail() {
             </div>
 
             <div className="mb-6">
-              <div className="text-4xl font-bold text-tigon-red mb-2">${product.price}</div>
+              <div className="text-4xl font-bold text-tigon-red mb-2">
+                {product.price === "Call for Pricing" ? (
+                  <span className="text-3xl">Call for Pricing</span>
+                ) : (
+                  `$${product.price}`
+                )}
+              </div>
               <p className="text-gray-600">
                 Professional-grade battery with proven TIGON reliability
               </p>
@@ -223,10 +229,11 @@ export default function ProductDetail() {
                 <Button 
                   className="bg-tigon-orange text-white hover:bg-orange-600 flex-1"
                   onClick={() => addToCartMutation.mutate()}
-                  disabled={!product.inStock || addToCartMutation.isPending}
+                  disabled={!product.inStock || addToCartMutation.isPending || product.price === "Call for Pricing"}
                 >
                   <ShoppingCart className="h-4 w-4 mr-2" />
-                  {addToCartMutation.isPending ? "Adding..." : "Add to Cart"}
+                  {product.price === "Call for Pricing" ? "Call for Quote" : 
+                   addToCartMutation.isPending ? "Adding..." : "Add to Cart"}
                 </Button>
                 <a href="tel:1-844-844-6638" className="flex-1">
                   <Button 

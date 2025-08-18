@@ -71,6 +71,7 @@ export class MemStorage implements IStorage {
         slug: "agm", 
         description: "Sealed, maintenance-free", 
         priceMultiplier: 1.3,
+        callForPricing: true,
         lifespan: "4-6 years",
         cycleLife: "600-1000 cycles"
       },
@@ -87,6 +88,7 @@ export class MemStorage implements IStorage {
         slug: "lithium", 
         description: "Premium, long-lasting", 
         priceMultiplier: 3.0,
+        callForPricing: true,
         lifespan: "8-10 years",
         cycleLife: "2000-5000 cycles"
       }
@@ -96,7 +98,7 @@ export class MemStorage implements IStorage {
       categories.forEach(category => {
         technologies.forEach(technology => {
           const productId = `tigon-${voltageSeries.series.toLowerCase()}-${category.slug}-${technology.slug}`;
-          const price = Math.round(voltageSeries.basePrice * technology.priceMultiplier * 100) / 100;
+          const price = technology.callForPricing ? "Call for Pricing" : (Math.round(voltageSeries.basePrice * technology.priceMultiplier * 100) / 100).toString();
           
           const product: Product = {
             id: productId,
@@ -133,7 +135,7 @@ export class MemStorage implements IStorage {
               `Professional ${category.description} solution`,
               `Proven TIGON Batteries reliability`
             ],
-            price: price.toString(),
+            price: price,
             inStock: true,
             images: [`tigon-${category.slug}-battery-1.jpg`, `tigon-${category.slug}-battery-2.jpg`],
             relatedProducts: [],

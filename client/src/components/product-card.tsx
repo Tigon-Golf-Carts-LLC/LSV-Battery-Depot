@@ -87,7 +87,13 @@ export default function ProductCard({ product, showBestSeller = false }: Product
         </div>
 
         <div className="flex items-center justify-between mb-4">
-          <div className="text-2xl font-bold text-tigon-red">${product.price}</div>
+          <div className="text-2xl font-bold text-tigon-red">
+            {product.price === "Call for Pricing" ? (
+              <span className="text-lg">Call for Pricing</span>
+            ) : (
+              `$${product.price}`
+            )}
+          </div>
           <Badge variant={product.inStock ? "default" : "destructive"} className="bg-tigon-green">
             {product.inStock ? "In Stock" : "Out of Stock"}
           </Badge>
@@ -97,10 +103,11 @@ export default function ProductCard({ product, showBestSeller = false }: Product
           <Button 
             className="w-full bg-tigon-orange text-white hover:bg-orange-600"
             onClick={() => addToCartMutation.mutate(product.id)}
-            disabled={!product.inStock || addToCartMutation.isPending}
+            disabled={!product.inStock || addToCartMutation.isPending || product.price === "Call for Pricing"}
           >
             <ShoppingCart className="h-4 w-4 mr-2" />
-            {addToCartMutation.isPending ? "Adding..." : "Add to Cart"}
+            {product.price === "Call for Pricing" ? "Call for Quote" : 
+             addToCartMutation.isPending ? "Adding..." : "Add to Cart"}
           </Button>
           <div className="flex gap-2">
             <Link href={`/product/${product.id}`} className="flex-1">
