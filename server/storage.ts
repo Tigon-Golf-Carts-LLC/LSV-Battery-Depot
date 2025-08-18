@@ -42,12 +42,12 @@ export class MemStorage implements IStorage {
   private initializeProducts() {
     // Generate complete product lineup: 96 products (6 series × 4 categories × 4 technologies)
     const voltageSeriesConfig = [
-      { series: "6V-225", voltage: 6, ampHours: 225, basePrice: 189.99 },
-      { series: "6V-305", voltage: 6, ampHours: 305, basePrice: 229.99 },
-      { series: "8V-170", voltage: 8, ampHours: 170, basePrice: 219.99 },
-      { series: "8V-225", voltage: 8, ampHours: 225, basePrice: 259.99 },
-      { series: "12V-100", voltage: 12, ampHours: 100, basePrice: 179.99 },
-      { series: "12V-150", voltage: 12, ampHours: 150, basePrice: 239.99 }
+      { series: "6V-225", voltage: 6, ampHours: 225, basePrice: 168.00 },
+      { series: "6V-305", voltage: 6, ampHours: 305, basePrice: 168.00 },
+      { series: "8V-170", voltage: 8, ampHours: 170, basePrice: 178.00 },
+      { series: "8V-225", voltage: 8, ampHours: 225, basePrice: 178.00 },
+      { series: "12V-100", voltage: 12, ampHours: 100, basePrice: 265.00 },
+      { series: "12V-150", voltage: 12, ampHours: 150, basePrice: 265.00 }
     ];
 
     const categories = [
@@ -145,6 +145,147 @@ export class MemStorage implements IStorage {
           this.products.set(productId, product);
         });
       });
+    });
+
+    // Add additional services and products
+    const additionalProducts: Product[] = [
+      {
+        id: "tigon-battery-installation",
+        name: "Professional Battery Installation Service",
+        series: "Installation",
+        category: "Services",
+        technology: "Professional Service",
+        seoTitle: "TIGON Battery Installation Service - Expert Professional Installation",
+        metaDescription: "Professional battery installation service by TIGON Batteries experts. Safe, reliable installation for all battery types. Call 1-844-844-6638",
+        specifications: {
+          voltage: 0,
+          ampHours: 0,
+          terminalType: "All Types",
+          dimensions: "Service",
+          weight: "N/A",
+          lifespan: "N/A",
+          cycleLife: "N/A"
+        },
+        systemCompatibility: ["All Systems"],
+        applications: ["Golf Carts", "LSV", "NEV", "MSV", "All Electric Vehicles"],
+        features: [
+          "Professional installation by TIGON certified technicians",
+          "Proper battery placement and securing",
+          "Electrical connection verification", 
+          "System testing and validation"
+        ],
+        price: "200.00",
+        inStock: true,
+        images: ["tigon-installation-service.jpg"],
+        relatedProducts: [],
+        focusKeywords: ["TIGON Battery Installation", "Professional Installation", "Battery Service"],
+        altText: "TIGON Professional Battery Installation Service",
+        createdAt: new Date()
+      },
+      {
+        id: "tigon-6v-8v-core-charge",
+        name: "6V/8V Battery Core Charge",
+        series: "Core",
+        category: "Core Charges",
+        technology: "Core Exchange",
+        seoTitle: "TIGON 6V 8V Battery Core Charge - Recycling Fee",
+        metaDescription: "6V and 8V battery core charge for recycling old batteries. Environmental responsibility by TIGON Batteries. Call 1-844-844-6638",
+        specifications: {
+          voltage: 0,
+          ampHours: 0,
+          terminalType: "Core Exchange",
+          dimensions: "Varies",
+          weight: "Varies",
+          lifespan: "N/A",
+          cycleLife: "N/A"
+        },
+        systemCompatibility: ["6V Systems", "8V Systems"],
+        applications: ["Golf Carts", "LSV", "NEV", "Battery Recycling"],
+        features: [
+          "Environmental battery recycling",
+          "Core exchange program",
+          "Refundable upon old battery return",
+          "TIGON eco-friendly initiative"
+        ],
+        price: "29.00",
+        inStock: true,
+        images: ["tigon-core-charge.jpg"],
+        relatedProducts: [],
+        focusKeywords: ["TIGON Core Charge", "Battery Recycling", "6V 8V Core"],
+        altText: "TIGON 6V 8V Battery Core Charge",
+        createdAt: new Date()
+      },
+      {
+        id: "tigon-12v-core-charge",
+        name: "12V Battery Core Charge",
+        series: "Core",
+        category: "Core Charges",
+        technology: "Core Exchange",
+        seoTitle: "TIGON 12V Battery Core Charge - Recycling Fee",
+        metaDescription: "12V battery core charge for recycling old batteries. Environmental responsibility by TIGON Batteries. Call 1-844-844-6638",
+        specifications: {
+          voltage: 0,
+          ampHours: 0,
+          terminalType: "Core Exchange",
+          dimensions: "Varies",
+          weight: "Varies",
+          lifespan: "N/A",
+          cycleLife: "N/A"
+        },
+        systemCompatibility: ["12V Systems"],
+        applications: ["NEV", "MSV", "Golf Carts", "Battery Recycling"],
+        features: [
+          "Environmental battery recycling",
+          "Core exchange program",
+          "Refundable upon old battery return",
+          "TIGON eco-friendly initiative"
+        ],
+        price: "57.00",
+        inStock: true,
+        images: ["tigon-core-charge.jpg"],
+        relatedProducts: [],
+        focusKeywords: ["TIGON Core Charge", "Battery Recycling", "12V Core"],
+        altText: "TIGON 12V Battery Core Charge",
+        createdAt: new Date()
+      },
+      {
+        id: "tigon-battery-cable",
+        name: "TIGON Battery Cable",
+        series: "Accessories",
+        category: "Cables & Accessories",
+        technology: "Heavy-Duty Cable",
+        seoTitle: "TIGON Battery Cable - Professional Grade Connection Cable",
+        metaDescription: "Professional grade battery cables by TIGON Batteries. Reliable connections for all battery systems. $10 per cable. Call 1-844-844-6638",
+        specifications: {
+          voltage: 0,
+          ampHours: 0,
+          terminalType: "Universal",
+          dimensions: "Various Lengths",
+          weight: "Varies by length",
+          lifespan: "10+ years",
+          cycleLife: "N/A"
+        },
+        systemCompatibility: ["All Voltage Systems"],
+        applications: ["Golf Carts", "LSV", "NEV", "MSV", "All Electric Vehicles"],
+        features: [
+          "Professional grade construction",
+          "Corrosion-resistant terminals",
+          "Flexible heavy-duty cable",
+          "TIGON quality standard"
+        ],
+        price: "10.00",
+        inStock: true,
+        images: ["tigon-battery-cable.jpg"],
+        relatedProducts: [],
+        focusKeywords: ["TIGON Battery Cable", "Battery Connections", "Professional Cable"],
+        altText: "TIGON Professional Battery Cable",
+        createdAt: new Date()
+      }
+    ];
+
+    // Add additional products to the map
+    additionalProducts.forEach(product => {
+      this.products.set(product.id, product);
     });
 
     // Update related products
