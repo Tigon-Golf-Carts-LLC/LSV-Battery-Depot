@@ -117,7 +117,7 @@ export default function ShoppingCartComponent() {
                   {cartItems.map((item) => (
                     <div key={item.id} className="flex gap-4 p-4 border rounded-lg">
                       <img
-                        src="/attached_assets/TIGON BATTERIES TRANS BG_1755534409586.png"
+                        src="/attached_assets/tigon-logo.png"
                         alt={item.product?.name || "Battery"}
                         className="w-16 h-16 object-contain rounded"
                       />

@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
               <img 
-                src="/attached_assets/TIGON BATTERIES TRANS BG_1755534409586.png" 
+                src="@assets/tigon-logo.png" 
                 alt="TIGON Batteries Logo" 
                 className="h-10 w-auto mr-3"
               />
