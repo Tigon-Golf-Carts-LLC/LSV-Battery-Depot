@@ -15,11 +15,11 @@ export default function Hero() {
               TIGON Batteries specializes in Golf Cart Batteries, LSV, NEV & MSV battery solutions. 
               Choose from 96+ professional-grade battery configurations with expert support.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col gap-4">
               <Link href="/battery-selector">
                 <Button 
                   size="lg" 
-                  className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600 w-full sm:w-auto"
+                  className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600 w-full"
                 >
                   <Search className="h-5 w-5 mr-2" />
                   Find Your Perfect Battery
@@ -27,7 +27,7 @@ export default function Hero() {
               </Link>
               <a 
                 href="tel:1-844-844-6638"
-                className="bg-white text-tigon-red px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors flex items-center justify-center border-2 border-white"
+                className="bg-white text-tigon-red px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors flex items-center justify-center border-2 border-white w-full"
               >
                 <Phone className="h-5 w-5 mr-2" />
                 Speak To A Expert
