@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
-              Power Your <span className="text-tigon-green">Golf Cart</span> with TIGON Batteries Reliability
+              Power Your <span className="text-tigon-red">Golf Cart</span> with TIGON Batteries Reliability
             </h1>
             <p className="text-xl mb-8 text-blue-100">
               TIGON Batteries specializes in Golf Cart Batteries, LSV, NEV & MSV battery solutions. 
@@ -42,8 +42,8 @@ export default function Hero() {
             <div className="bg-white/10 p-8 rounded-2xl backdrop-blur-sm text-center">
               <div className="bg-white/20 p-12 rounded-xl">
                 <div className="grid grid-cols-2 gap-6 mb-6">
-                  <div className="bg-tigon-green/20 p-4 rounded-lg">
-                    <Battery className="h-12 w-12 text-tigon-green mx-auto mb-2" />
+                  <div className="bg-tigon-red/20 p-4 rounded-lg">
+                    <Battery className="h-12 w-12 text-tigon-red mx-auto mb-2" />
                     <div className="text-white font-semibold">Golf Cart</div>
                   </div>
                   <div className="bg-tigon-orange/20 p-4 rounded-lg">
@@ -61,7 +61,7 @@ export default function Hero() {
                 </div>
               </div>
               <div className="mt-4 text-center">
-                <div className="text-tigon-green font-semibold">96+ Battery Configurations Available</div>
+                <div className="text-tigon-red font-semibold">96+ Battery Configurations Available</div>
                 <div className="text-blue-100 text-sm">6V • 8V • 12V | Flooded • AGM • Gel • Lithium</div>
               </div>
             </div>
