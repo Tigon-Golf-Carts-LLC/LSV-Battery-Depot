@@ -39,12 +39,27 @@ export default function Hero() {
             </div>
           </div>
           <div className="lg:text-right">
-            <div className="bg-white/10 p-8 rounded-2xl backdrop-blur-sm">
-              <img 
-                src="/attached_assets/image_1755533184018.png" 
-                alt="TIGON Batteries Product Categories - Golf Cart, LSV, NEV, MSV" 
-                className="rounded-xl shadow-2xl w-full h-auto" 
-              />
+            <div className="bg-white/10 p-8 rounded-2xl backdrop-blur-sm text-center">
+              <div className="bg-white/20 p-12 rounded-xl">
+                <div className="grid grid-cols-2 gap-6 mb-6">
+                  <div className="bg-tigon-green/20 p-4 rounded-lg">
+                    <Battery className="h-12 w-12 text-tigon-green mx-auto mb-2" />
+                    <div className="text-white font-semibold">Golf Cart</div>
+                  </div>
+                  <div className="bg-tigon-orange/20 p-4 rounded-lg">
+                    <Truck className="h-12 w-12 text-tigon-orange mx-auto mb-2" />
+                    <div className="text-white font-semibold">LSV/NEV</div>
+                  </div>
+                  <div className="bg-tigon-red/20 p-4 rounded-lg">
+                    <Zap className="h-12 w-12 text-tigon-red mx-auto mb-2" />
+                    <div className="text-white font-semibold">Lithium</div>
+                  </div>
+                  <div className="bg-blue-400/20 p-4 rounded-lg">
+                    <Shield className="h-12 w-12 text-blue-300 mx-auto mb-2" />
+                    <div className="text-white font-semibold">AGM/Gel</div>
+                  </div>
+                </div>
+              </div>
               <div className="mt-4 text-center">
                 <div className="text-tigon-green font-semibold">96+ Battery Configurations Available</div>
                 <div className="text-blue-100 text-sm">6V • 8V • 12V | Flooded • AGM • Gel • Lithium</div>
