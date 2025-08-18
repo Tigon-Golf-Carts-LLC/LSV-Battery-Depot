@@ -53,7 +53,7 @@ export default function ProductCard({ product, showBestSeller = false }: Product
     <Card className="card-hover overflow-hidden border-2 border-transparent hover:border-tigon-red">
       <div className="relative">
         <img 
-          src="/attached_assets/TIGON BATTERIES TRANS BG (2)_1755533925880.png" 
+          src="/attached_assets/TIGON BATTERIES TRANS BG_1755534409586.png" 
           alt={product.altText}
           className="w-full h-48 object-contain bg-gray-50" 
         />

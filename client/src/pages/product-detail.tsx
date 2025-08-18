@@ -151,7 +151,7 @@ export default function ProductDetail() {
             <Card className="overflow-hidden">
               <div className="relative">
                 <img 
-                  src="/attached_assets/TIGON BATTERIES TRANS BG (2)_1755533925880.png"
+                  src="/attached_assets/TIGON BATTERIES TRANS BG_1755534409586.png"
                   alt={product.altText}
                   className="w-full h-96 object-contain bg-gray-50"
                 />

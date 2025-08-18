@@ -44,7 +44,11 @@ export default function Header() {
             {/* Logo */}
             <Link href="/">
               <div className="flex items-center cursor-pointer">
-                <Battery className="h-8 w-8 text-tigon-red mr-2" />
+                <img 
+                  src="/attached_assets/TIGON BATTERIES TRANS BG_1755534409586.png" 
+                  alt="TIGON Batteries Logo" 
+                  className="h-10 w-auto mr-3"
+                />
                 <div className="text-2xl font-bold text-tigon-red">
                   TIGON<span className="text-tigon-green">Batteries</span>
                 </div>
