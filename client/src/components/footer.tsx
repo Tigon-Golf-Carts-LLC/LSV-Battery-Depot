@@ -14,7 +14,7 @@ export default function Footer() {
                 src="/attached_assets/tigon-logo.png" 
                 alt="TIGON Batteries Logo" 
                 className="w-auto mr-3"
-                style={{ height: '50px' }}
+                style={{ height: '60px' }}
               />
               <div className="text-2xl font-bold text-tigon-red">
                 TIGON <span className="text-tigon-green">Batteries</span>
