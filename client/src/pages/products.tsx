@@ -261,8 +261,8 @@ export default function Products() {
                     Talk to our TIGON battery specialists for personalized recommendations.
                   </p>
                   <a href="tel:1-844-844-6638">
-                    <Button size="sm" className="bg-tigon-red text-white hover:bg-blue-700 w-full">
-                      <Phone className="h-4 w-4 mr-2" />
+                    <Button size="sm" className="bg-tigon-red text-white hover:bg-blue-700 w-full text-xs px-3">
+                      <Phone className="h-4 w-4 mr-1" />
                       Call 1-844-844-6638
                     </Button>
                   </a>
