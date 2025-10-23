@@ -39,7 +39,7 @@ export default function Hero() {
               </Link>
               <a 
                 href="tel:1-844-888-7732"
-                className="bg-white text-cart-red px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors flex items-center justify-center border-2 border-white w-full"
+                className="bg-white text-cart-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors flex items-center justify-center border-2 border-white w-full"
                 data-testid="link-phone-hero"
               >
                 <Phone className="h-5 w-5 mr-2 text-cart-green" />
