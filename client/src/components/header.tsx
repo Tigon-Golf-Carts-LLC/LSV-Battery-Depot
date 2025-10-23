@@ -29,7 +29,7 @@ export default function Header() {
             <Phone className="h-4 w-4 mr-2 text-white" />
             <a 
               href="tel:1-844-888-7732" 
-              className="font-semibold hover:text-white transition-colors"
+              className="font-semibold text-cart-orange hover:text-white transition-colors"
               data-testid="link-phone-topbar"
             >
               1-844-888-7732
