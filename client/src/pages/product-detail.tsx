@@ -29,27 +29,21 @@ export default function ProductDetail() {
     enabled: !!id,
   });
 
-  // Set SEO metadata when product is loaded
-  if (product) {
-    const title = product.name;
-    const description = `${product.name} - Premium ${product.technology} battery from TIGON. Professional grade battery solution for ${product.category}. Call 1-844-888-7732.`;
-    
-    useDocumentHead({
-      title,
-      description,
-      ogImage: "/og/logo.png",
-      ogImageWidth: 512,
-      ogImageHeight: 512
-    });
-  } else if (error) {
-    useDocumentHead({
-      title: "Product Not Found",
-      description: "The battery you're looking for doesn't exist or may have been discontinued. Browse our complete catalog of TIGON batteries. Call 1-844-888-7732.",
-      ogImage: "/og/logo.png",
-      ogImageWidth: 512,
-      ogImageHeight: 512
-    });
-  }
+  // Set SEO metadata - must be called unconditionally (Rules of Hooks)
+  const title = product ? product.name : error ? "Product Not Found" : "Loading...";
+  const description = product 
+    ? `${product.name} - Premium ${product.technology} battery from TIGON. Professional grade battery solution for ${product.category}. Call 1-844-888-7732.`
+    : error 
+    ? "The battery you're looking for doesn't exist or may have been discontinued. Browse our complete catalog of TIGON batteries. Call 1-844-888-7732."
+    : "Loading product details...";
+  
+  useDocumentHead({
+    title,
+    description,
+    ogImage: "/og/logo.png",
+    ogImageWidth: 512,
+    ogImageHeight: 512
+  });
 
   const { data: relatedProducts = [] } = useQuery<Product[]>({
     queryKey: ["/api/products"],
