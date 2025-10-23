@@ -166,11 +166,11 @@ export default function ProductDetail() {
           {/* Product Images */}
           <div>
             <Card className="overflow-hidden">
-              <div className="relative">
+              <div className="relative bg-gray-50">
                 <img 
-                  src="/favicon.png"
+                  src="/battery-product.png"
                   alt={product.altText}
-                  className="w-full h-96 object-contain bg-gray-50"
+                  className="w-full h-96 object-contain p-8"
                 />
                 <Badge className="absolute top-4 left-4 bg-cart-green text-white">
                   {product.inStock ? "In Stock" : "Out of Stock"}

@@ -45,10 +45,11 @@ export default function Header() {
             {/* Logo */}
             <Link href="/">
               <div className="flex items-center cursor-pointer" data-testid="link-home-logo">
-                <Battery className="h-16 w-16 text-cart-green mr-3" />
-                <div className="text-2xl font-bold text-cart-red">
-                  Cart Battery <span className="text-cart-green">Depot</span>
-                </div>
+                <img 
+                  src="/cart-battery-depot-logo.png" 
+                  alt="Cart Battery Depot Logo" 
+                  className="h-16 w-auto"
+                />
               </div>
             </Link>
 

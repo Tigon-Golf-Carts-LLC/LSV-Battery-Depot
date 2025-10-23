@@ -10,10 +10,11 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
-              <Battery className="h-16 w-16 text-cart-green mr-3" />
-              <div className="text-2xl font-bold text-cart-red">
-                Cart Battery <span className="text-cart-green">Depot</span>
-              </div>
+              <img 
+                src="/cart-battery-depot-logo.png" 
+                alt="Cart Battery Depot Logo" 
+                className="h-16 w-auto"
+              />
             </div>
             <p className="text-gray-300 mb-6">
               Cart Battery Depot specializes in Golf Cart Batteries, Low Speed Vehicle (LSV) Batteries, 

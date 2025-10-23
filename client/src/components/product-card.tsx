@@ -51,8 +51,12 @@ export default function ProductCard({ product, showBestSeller = false }: Product
 
   return (
     <Card className="card-hover overflow-hidden border-2 border-transparent hover:border-cart-red" data-testid={`card-product-${product.id}`}>
-      <div className="relative">
-        <Battery className="w-full h-48 p-8 text-gray-400 bg-gray-50" />
+      <div className="relative bg-gray-50">
+        <img 
+          src="/battery-product.png" 
+          alt={product.altText || product.name}
+          className="w-full h-48 object-contain p-4"
+        />
         {showBestSeller && (
           <Badge className="absolute top-4 left-4 bg-cart-green text-white">
             Best Seller
