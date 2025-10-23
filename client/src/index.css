@@ -52,11 +52,10 @@
   --tracking-normal: 0em;
   --spacing: 0.25rem;
   
-  /* Cart Battery Depot Brand Colors - Main color is RED #af1f31 */
-  --cart-red: hsl(351, 70%, 40%);
-  --cart-blue: hsl(218, 80%, 40%);
-  --cart-green: hsl(157, 69%, 38%);
-  --cart-orange: hsl(38, 95%, 48%);
+  /* Cart Battery Depot Brand Colors */
+  --cart-green: hsl(88, 47%, 53%);
+  --cart-blue: hsl(201, 65%, 45%);
+  --cart-orange: hsl(23, 83%, 54%);
 }
 
 .dark {
