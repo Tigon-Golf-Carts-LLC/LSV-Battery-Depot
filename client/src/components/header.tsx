@@ -22,11 +22,11 @@ export default function Header() {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-cart-red text-white py-2" data-testid="header-topbar">
+      <div className="bg-cart-green text-white py-2" data-testid="header-topbar">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-center items-center text-sm">
             <span className="hidden sm:inline mr-2">Expert Battery Support:</span>
-            <Phone className="h-4 w-4 mr-2 text-cart-green" />
+            <Phone className="h-4 w-4 mr-2 text-white" />
             <a 
               href="tel:1-844-888-7732" 
               className="font-semibold hover:text-white transition-colors"
