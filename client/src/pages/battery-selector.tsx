@@ -197,7 +197,7 @@ export default function BatterySelector() {
             {/* Results Header */}
             <Card className="mb-8 bg-gradient-to-r from-cart-red to-cart-green text-white">
               <CardContent className="p-8 text-center">
-                <CheckCircle className="h-16 w-16 mx-auto mb-4 text-cart-orange" />
+                <CheckCircle className="h-16 w-16 mx-auto mb-4 text-cart-green" />
                 <h2 className="text-3xl font-bold mb-4">
                   Your Cart Battery Depot Battery Recommendations Are Ready!
                 </h2>
@@ -210,7 +210,7 @@ export default function BatterySelector() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a href="tel:1-844-888-7732">
                     <Button size="lg" className="bg-cart-orange text-white hover:bg-orange-600">
-                      <Phone className="h-5 w-5 mr-2" />
+                      <Phone className="h-5 w-5 mr-2 text-cart-green" />
                       Discuss Results: 1-844-888-7732
                     </Button>
                   </a>
@@ -306,7 +306,7 @@ export default function BatterySelector() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a href="tel:1-844-888-7732">
                     <Button size="lg" className="bg-cart-orange text-white hover:bg-orange-600">
-                      <Phone className="h-5 w-5 mr-2" />
+                      <Phone className="h-5 w-5 mr-2 text-cart-green" />
                       Call Cart Battery Depot Experts: 1-844-888-7732
                     </Button>
                   </a>
@@ -328,7 +328,7 @@ export default function BatterySelector() {
                   <div className="grid md:grid-cols-3 gap-6">
                     <div className="text-center">
                       <div className="bg-cart-red/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <Phone className="h-8 w-8 text-cart-red" />
+                        <Phone className="h-8 w-8 text-cart-green" />
                       </div>
                       <h4 className="font-semibold mb-2">1. Consult with Experts</h4>
                       <p className="text-sm text-gray-600 mb-3">
@@ -358,7 +358,7 @@ export default function BatterySelector() {
 
                     <div className="text-center">
                       <div className="bg-cart-orange/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <ArrowRight className="h-8 w-8 text-cart-orange" />
+                        <ArrowRight className="h-8 w-8 text-cart-green" />
                       </div>
                       <h4 className="font-semibold mb-2">3. Order & Install</h4>
                       <p className="text-sm text-gray-600 mb-3">
@@ -390,7 +390,7 @@ export default function BatterySelector() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-888-7732">
                 <Button size="lg" className="bg-cart-orange text-white hover:bg-orange-600">
-                  <Phone className="h-5 w-5 mr-2" />
+                  <Phone className="h-5 w-5 mr-2 text-cart-green" />
                   Call Cart Battery Depot Experts: 1-844-888-7732
                 </Button>
               </a>

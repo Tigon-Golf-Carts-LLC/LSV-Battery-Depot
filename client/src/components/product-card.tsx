@@ -118,7 +118,7 @@ export default function ProductCard({ product, showBestSeller = false }: Product
                 className="w-full border-cart-red text-cart-red hover:bg-cart-red hover:text-white px-3 py-2"
                 data-testid={`button-call-expert-${product.id}`}
               >
-                <Phone className="h-4 w-4 mr-1" />
+                <Phone className="h-4 w-4 mr-1 text-cart-green" />
                 Call Expert
               </Button>
             </a>

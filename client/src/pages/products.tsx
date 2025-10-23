@@ -165,7 +165,7 @@ export default function Products() {
             </p>
             <a href="tel:1-844-888-7732">
               <Button className="bg-cart-orange text-white px-6 py-3 hover:bg-orange-600">
-                <Phone className="h-4 w-4 mr-2" />
+                <Phone className="h-4 w-4 mr-2 text-cart-green" />
                 Call Battery Experts: 1-844-888-7732
               </Button>
             </a>
@@ -276,7 +276,7 @@ export default function Products() {
                   </p>
                   <a href="tel:1-844-888-7732">
                     <Button size="sm" className="bg-cart-red text-white hover:bg-blue-700 w-full text-xs px-3">
-                      <Phone className="h-4 w-4 mr-1" />
+                      <Phone className="h-4 w-4 mr-1 text-cart-green" />
                       Call 1-844-888-7732
                     </Button>
                   </a>
@@ -360,7 +360,7 @@ export default function Products() {
                   </Button>
                   <a href="tel:1-844-888-7732">
                     <Button className="bg-cart-orange text-white hover:bg-orange-600">
-                      <Phone className="h-4 w-4 mr-2" />
+                      <Phone className="h-4 w-4 mr-2 text-cart-green" />
                       Call Expert: 1-844-888-7732
                     </Button>
                   </a>
@@ -387,7 +387,7 @@ export default function Products() {
                   </p>
                   <a href="tel:1-844-888-7732">
                     <Button className="bg-cart-red text-white hover:bg-blue-700">
-                      <Phone className="h-4 w-4 mr-2" />
+                      <Phone className="h-4 w-4 mr-2 text-cart-green" />
                       Call Cart Battery Depot Experts: 1-844-888-7732
                     </Button>
                   </a>

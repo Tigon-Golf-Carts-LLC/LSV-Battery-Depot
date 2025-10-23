@@ -148,7 +148,7 @@ export default function Contact() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-888-7732">
                 <Button size="lg" className="bg-cart-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
-                  <Phone className="h-5 w-5 mr-2" />
+                  <Phone className="h-5 w-5 mr-2 text-cart-green" />
                   Call Now: 1-844-888-7732
                 </Button>
               </a>
@@ -180,7 +180,7 @@ export default function Contact() {
                     <div className={`w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 ${
                       method.primary ? 'bg-cart-orange/10' : 'bg-cart-red/10'
                     }`}>
-                      <Icon className={`h-8 w-8 ${method.primary ? 'text-cart-orange' : 'text-cart-red'}`} />
+                      <Icon className={`h-8 w-8 text-cart-green`} />
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">{method.title}</h3>
                     <p className="text-gray-600 mb-4">{method.description}</p>
@@ -240,7 +240,7 @@ export default function Contact() {
                 </p>
                 <a href="tel:1-844-888-7732">
                   <Button className="bg-cart-orange text-white hover:bg-orange-600">
-                    <Phone className="h-4 w-4 mr-2" />
+                    <Phone className="h-4 w-4 mr-2 text-cart-green" />
                     Call 1-844-888-7732
                   </Button>
                 </a>
@@ -260,14 +260,14 @@ export default function Contact() {
                   </p>
                   <div className="space-y-4">
                     <div className="flex items-center justify-center">
-                      <Clock className="h-5 w-5 text-cart-red mr-2" />
+                      <Clock className="h-5 w-5 text-cart-green mr-2" />
                       <span className="text-gray-700">Expected response: Within 24 hours</span>
                     </div>
                     <div className="pt-4">
                       <p className="text-sm text-gray-600 mb-3">Need immediate assistance?</p>
                       <a href="tel:1-844-888-7732">
                         <Button className="bg-cart-orange text-white hover:bg-orange-600">
-                          <Phone className="h-4 w-4 mr-2" />
+                          <Phone className="h-4 w-4 mr-2 text-cart-green" />
                           Call 1-844-888-7732
                         </Button>
                       </a>
@@ -462,7 +462,7 @@ export default function Contact() {
                 <Card key={index}>
                   <CardContent className="p-6">
                     <div className="bg-cart-red/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Icon className="h-8 w-8 text-cart-red" />
+                      <Icon className="h-8 w-8 text-cart-green" />
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 text-center mb-3">{area.title}</h3>
                     <p className="text-gray-600 text-center mb-4">{area.description}</p>
@@ -487,7 +487,7 @@ export default function Contact() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <Clock className="h-5 w-5 mr-2 text-cart-red" />
+                  <Clock className="h-5 w-5 mr-2 text-cart-green" />
                   Business Hours
                 </CardTitle>
               </CardHeader>
@@ -521,7 +521,7 @@ export default function Contact() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <MapPin className="h-5 w-5 mr-2 text-cart-red" />
+                  <MapPin className="h-5 w-5 mr-2 text-cart-green" />
                   Service Areas
                 </CardTitle>
               </CardHeader>
@@ -567,7 +567,7 @@ export default function Contact() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-888-7732">
                 <Button size="lg" className="bg-cart-orange text-white hover:bg-orange-600">
-                  <Phone className="h-5 w-5 mr-2" />
+                  <Phone className="h-5 w-5 mr-2 text-cart-green" />
                   Call Cart Battery Depot Experts: 1-844-888-7732
                 </Button>
               </a>
