@@ -2,6 +2,16 @@
 
 Cart Battery Depot is a professional e-commerce website specializing in electric vehicle batteries across four main categories: Golf Cart Batteries (primary focus), Low Speed Vehicles (LSV), Neighborhood Electric Vehicle (NEV), and Medium Speed Vehicle (MSV) batteries. The application features a comprehensive product catalog with 96+ battery configurations across different voltage systems (6V, 8V, 12V) and technologies (Flooded, AGM, Gel, Lithium), along with educational content, battery selection tools, and quote request functionality.
 
+# Recent Changes
+
+## Brand Color Theme Update (October 2025)
+- Updated brand color scheme to: Green (#8cc24e), Blue (#2888bb), Orange (#eb7327)
+- All icons across the entire site now use the green color (`text-cart-green`) for consistency
+- LSV/NEV category buttons use blue color for distinction
+- Navigation Call-to-Action buttons use orange background
+- All colored text in headers use green color
+- Updated CSS variables in index.css to reflect new brand colors
+
 # User Preferences
 
 Preferred communication style: Simple, everyday language.
