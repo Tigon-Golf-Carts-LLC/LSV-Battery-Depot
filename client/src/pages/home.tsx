@@ -406,7 +406,7 @@ export default function Home() {
                 <div className="text-xl font-semibold text-gray-900 mb-2">Satisfied Customers</div>
                 <div className="text-gray-600 mb-6">Trust Cart Battery Depot for Golf Cart, LSV, NEV & MSV solutions nationwide</div>
                 <a href="tel:1-844-888-7732">
-                  <Button className="bg-cart-red text-white px-8 py-3 hover:bg-blue-700">
+                  <Button className="bg-cart-orange text-white px-8 py-3 hover:bg-cart-blue">
                     <Phone className="h-4 w-4 mr-2 text-cart-green" />
                     Join Our Happy Customers: 1-844-888-7732
                   </Button>
