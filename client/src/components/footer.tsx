@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-3 sm:mb-4">
               <img 
-                src="/lsv-battery-depot-logo.png" 
+                src="/lsv-battery-depot-logo-white.png" 
                 alt="LSV Battery Depot Logo" 
                 className="h-12 sm:h-14 md:h-16 w-auto"
               />
