@@ -53,9 +53,9 @@
   --spacing: 0.25rem;
   
   /* LSV Battery Depot Brand Colors */
-  --lsv-green: hsl(88, 47%, 53%);
-  --lsv-blue: hsl(201, 65%, 45%);
-  --lsv-orange: hsl(23, 83%, 54%);
+  --lsv-green: hsl(129, 35%, 47%);
+  --lsv-blue: hsl(0, 0%, 0%);
+  --lsv-orange: hsl(44, 85%, 53%);
 }
 
 .dark {
