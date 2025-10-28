@@ -121,8 +121,8 @@ export default function BatterySelectorQuiz({ onComplete }: BatterySelectorQuizP
                   onClick={() => handleSelection("vehicleType", type.id)}
                   className={`p-6 rounded-xl border-2 transition-all duration-200 text-center ${
                     isSelected 
-                      ? "battery-selector-active border-cart-red" 
-                      : "border-gray-200 hover:border-cart-red"
+                      ? "battery-selector-active border-lsv-red" 
+                      : "border-gray-200 hover:border-lsv-red"
                   }`}
                 >
                   <Icon className={`h-8 w-8 mx-auto mb-3 ${isSelected ? "text-white" : "text-gray-400"}`} />
@@ -149,8 +149,8 @@ export default function BatterySelectorQuiz({ onComplete }: BatterySelectorQuizP
                   onClick={() => handleSelection("voltageSystem", voltage.id)}
                   className={`p-6 rounded-xl border-2 transition-all duration-200 text-left ${
                     isSelected 
-                      ? "battery-selector-active border-cart-red" 
-                      : "border-gray-200 hover:border-cart-red"
+                      ? "battery-selector-active border-lsv-red" 
+                      : "border-gray-200 hover:border-lsv-red"
                   }`}
                 >
                   <div className={`font-semibold text-lg mb-2 ${isSelected ? "text-white" : "text-gray-700"}`}>
@@ -176,8 +176,8 @@ export default function BatterySelectorQuiz({ onComplete }: BatterySelectorQuizP
                   onClick={() => handleSelection("usage", usage.id)}
                   className={`p-6 rounded-xl border-2 transition-all duration-200 text-left ${
                     isSelected 
-                      ? "battery-selector-active border-cart-red" 
-                      : "border-gray-200 hover:border-cart-red"
+                      ? "battery-selector-active border-lsv-red" 
+                      : "border-gray-200 hover:border-lsv-red"
                   }`}
                 >
                   <div className={`font-semibold text-lg mb-2 ${isSelected ? "text-white" : "text-gray-700"}`}>
@@ -203,8 +203,8 @@ export default function BatterySelectorQuiz({ onComplete }: BatterySelectorQuizP
                   onClick={() => handleSelection("budget", budget.id)}
                   className={`p-6 rounded-xl border-2 transition-all duration-200 text-left ${
                     isSelected 
-                      ? "battery-selector-active border-cart-red" 
-                      : "border-gray-200 hover:border-cart-red"
+                      ? "battery-selector-active border-lsv-red" 
+                      : "border-gray-200 hover:border-lsv-red"
                   }`}
                 >
                   <div className={`font-semibold text-lg mb-2 ${isSelected ? "text-white" : "text-gray-700"}`}>
@@ -237,7 +237,7 @@ export default function BatterySelectorQuiz({ onComplete }: BatterySelectorQuizP
             <div className="text-sm text-gray-600 mb-2">Or get instant help:</div>
             <a 
               href="tel:1-844-888-7732" 
-              className="text-cart-red font-semibold hover:underline flex items-center"
+              className="text-lsv-red font-semibold hover:underline flex items-center"
             >
               <Phone className="h-4 w-4 mr-1" />
               Call 1-844-888-7732
@@ -247,7 +247,7 @@ export default function BatterySelectorQuiz({ onComplete }: BatterySelectorQuizP
           <Button
             onClick={nextStep}
             disabled={!canProceed()}
-            className="bg-cart-red text-white hover:bg-blue-700 flex items-center"
+            className="bg-lsv-red text-white hover:bg-blue-700 flex items-center"
           >
             {quizState.currentStep === QUIZ_STEPS.length - 1 ? (
               <>

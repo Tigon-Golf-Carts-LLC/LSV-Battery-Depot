@@ -50,7 +50,7 @@ export default function ProductCard({ product, showBestSeller = false }: Product
   const specs = safeGetSpecs(product);
 
   return (
-    <Card className="card-hover overflow-hidden border-2 border-transparent hover:border-cart-red flex flex-col h-full" data-testid={`card-product-${product.id}`}>
+    <Card className="card-hover overflow-hidden border-2 border-transparent hover:border-lsv-red flex flex-col h-full" data-testid={`card-product-${product.id}`}>
       <div className="relative bg-gray-50">
         <img 
           src="/battery-product.png" 
@@ -58,7 +58,7 @@ export default function ProductCard({ product, showBestSeller = false }: Product
           className="w-full h-40 sm:h-44 md:h-48 object-contain p-3 sm:p-4"
         />
         {showBestSeller && (
-          <Badge className="absolute top-2 sm:top-3 md:top-4 left-2 sm:left-3 md:left-4 bg-cart-green text-white text-xs">
+          <Badge className="absolute top-2 sm:top-3 md:top-4 left-2 sm:left-3 md:left-4 bg-lsv-green text-white text-xs">
             Best Seller
           </Badge>
         )}
@@ -87,24 +87,24 @@ export default function ProductCard({ product, showBestSeller = false }: Product
         </div>
 
         <div className="flex items-center justify-between mb-3 sm:mb-4">
-          <div className="text-xl sm:text-2xl font-bold text-cart-red" data-testid={`text-price-${product.id}`}>
+          <div className="text-xl sm:text-2xl font-bold text-lsv-red" data-testid={`text-price-${product.id}`}>
             {product.price === "Call for Pricing" ? (
               <span className="text-base sm:text-lg">Call for Pricing</span>
             ) : (
               `$${product.price}`
             )}
           </div>
-          <Badge variant={product.inStock ? "default" : "destructive"} className="bg-cart-green text-xs sm:text-sm">
+          <Badge variant={product.inStock ? "default" : "destructive"} className="bg-lsv-green text-xs sm:text-sm">
             {product.inStock ? "In Stock" : "Out of Stock"}
           </Badge>
         </div>
 
         <div className="space-y-2 mt-auto">
           <Button 
-            className="w-full bg-cart-orange text-white hover:bg-orange-600 text-sm sm:text-base min-h-[48px] touch-manipulation"
+            className="w-full bg-lsv-orange text-white hover:bg-orange-600 text-sm sm:text-base min-h-[48px] touch-manipulation"
             onClick={() => addToCartMutation.mutate(product.id)}
             disabled={!product.inStock || addToCartMutation.isPending || product.price === "Call for Pricing"}
-            data-testid={`button-add-to-cart-${product.id}`}
+            data-testid={`button-add-to-lsv-${product.id}`}
           >
             <ShoppingCart className="h-4 w-4 mr-2 flex-shrink-0" />
             {product.price === "Call for Pricing" ? "Call for Quote" : 
@@ -119,10 +119,10 @@ export default function ProductCard({ product, showBestSeller = false }: Product
             <a href="tel:1-844-888-7732" className="flex-1">
               <Button 
                 variant="outline" 
-                className="w-full border-cart-red text-cart-red hover:bg-cart-red hover:text-white px-2 sm:px-3 py-2 text-xs sm:text-sm min-h-[48px] touch-manipulation"
+                className="w-full border-lsv-red text-lsv-red hover:bg-lsv-red hover:text-white px-2 sm:px-3 py-2 text-xs sm:text-sm min-h-[48px] touch-manipulation"
                 data-testid={`button-call-expert-${product.id}`}
               >
-                <Phone className="h-3.5 w-3.5 sm:h-4 sm:w-4 mr-1 text-cart-green flex-shrink-0" />
+                <Phone className="h-3.5 w-3.5 sm:h-4 sm:w-4 mr-1 text-lsv-green flex-shrink-0" />
                 <span className="hidden sm:inline">Call Expert</span>
                 <span className="sm:hidden">Call</span>
               </Button>

@@ -52,14 +52,14 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
               <h4 className="font-semibold text-sm mb-2">{product.name}</h4>
               <Badge variant="outline" className="mb-2">{product.technology}</Badge>
               
-              <div className="text-lg font-bold text-cart-red mb-3">
+              <div className="text-lg font-bold text-lsv-red mb-3">
                 {formatPrice(product.price)}
               </div>
               
               <div className="space-y-2">
                 <Button 
                   size="sm" 
-                  className="w-full bg-cart-orange text-white hover:bg-orange-600"
+                  className="w-full bg-lsv-orange text-white hover:bg-orange-600"
                   onClick={() => onAddToCart(product.id)}
                 >
                   <ShoppingCart className="h-3 w-3 mr-1" />
@@ -69,7 +69,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   <Button 
                     size="sm" 
                     variant="outline" 
-                    className="w-full border-cart-red text-cart-red hover:bg-cart-red hover:text-white"
+                    className="w-full border-lsv-red text-lsv-red hover:bg-lsv-red hover:text-white"
                   >
                     <Phone className="h-3 w-3 mr-1" />
                     Call Expert
@@ -105,7 +105,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   <TableCell className="font-medium">Price</TableCell>
                   {products.map((product) => (
                     <TableCell key={product.id} className="text-center">
-                      <span className="font-bold text-cart-red">{formatPrice(product.price)}</span>
+                      <span className="font-bold text-lsv-red">{formatPrice(product.price)}</span>
                     </TableCell>
                   ))}
                 </TableRow>
@@ -178,7 +178,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   {products.map((product) => (
                     <TableCell key={product.id} className="text-center">
                       {product.inStock ? (
-                        <Badge className="bg-cart-green text-white">
+                        <Badge className="bg-lsv-green text-white">
                           <CheckCircle className="h-3 w-3 mr-1" />
                           In Stock
                         </Badge>
@@ -212,7 +212,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   <ul className="space-y-1">
                     {product.features.map((feature, index) => (
                       <li key={index} className="flex items-start text-xs">
-                        <CheckCircle className="h-3 w-3 text-cart-green mr-2 mt-0.5 flex-shrink-0" />
+                        <CheckCircle className="h-3 w-3 text-lsv-green mr-2 mt-0.5 flex-shrink-0" />
                         <span>{feature}</span>
                       </li>
                     ))}
@@ -239,7 +239,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   <ul className="text-xs space-y-1">
                     {product.systemCompatibility.map((config, index) => (
                       <li key={index} className="flex items-center">
-                        <CheckCircle className="h-3 w-3 text-cart-green mr-2" />
+                        <CheckCircle className="h-3 w-3 text-lsv-green mr-2" />
                         {config}
                       </li>
                     ))}
@@ -250,7 +250,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   <ul className="text-xs space-y-1">
                     {product.applications.map((app, index) => (
                       <li key={index} className="flex items-center">
-                        <CheckCircle className="h-3 w-3 text-cart-green mr-2" />
+                        <CheckCircle className="h-3 w-3 text-lsv-green mr-2" />
                         {app}
                       </li>
                     ))}
@@ -263,10 +263,10 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
       </Card>
 
       {/* Action Section */}
-      <Card className="bg-cart-red text-white">
+      <Card className="bg-lsv-red text-white">
         <CardContent className="p-6 text-center">
           <h3 className="text-xl font-bold mb-4">
-            Need Help Choosing Between These Cart Battery Depot?
+            Need Help Choosing Between These LSV Battery Depot Batteries?
           </h3>
           <p className="mb-6 text-blue-100">
             Our battery experts can help you select the best option based on your specific 
@@ -274,12 +274,12 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:1-844-888-7732">
-              <Button size="lg" className="bg-cart-orange text-white hover:bg-orange-600">
+              <Button size="lg" className="bg-lsv-orange text-white hover:bg-orange-600">
                 <Phone className="h-5 w-5 mr-2" />
                 Call Battery Experts: 1-844-888-7732
               </Button>
             </a>
-            <Button size="lg" variant="outline" className="bg-white text-cart-red hover:bg-gray-100">
+            <Button size="lg" variant="outline" className="bg-white text-lsv-red hover:bg-gray-100">
               <ShoppingCart className="h-5 w-5 mr-2" />
               Add All to Cart
             </Button>

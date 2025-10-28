@@ -32,9 +32,9 @@ export default function ProductDetail() {
   // Set SEO metadata - must be called unconditionally (Rules of Hooks)
   const title = product ? product.name : error ? "Product Not Found" : "Loading...";
   const description = product 
-    ? `${product.name} - Premium ${product.technology} battery from Cart Battery Depot. Professional grade battery solution for ${product.category}. Call 1-844-888-7732.`
+    ? `${product.name} - Premium ${product.technology} battery from LSV Battery Depot. Professional grade battery solution for ${product.category}. Call 1-844-888-7732.`
     : error 
-    ? "The battery you're looking for doesn't exist or may have been discontinued. Browse our complete catalog of Cart Battery Depot batteries. Call 1-844-888-7732."
+    ? "The battery you're looking for doesn't exist or may have been discontinued. Browse our complete catalog of LSV Battery Depot batteries. Call 1-844-888-7732."
     : "Loading product details...";
   
   useDocumentHead({
@@ -117,8 +117,8 @@ export default function ProductDetail() {
                 <Button>View All Products</Button>
               </Link>
               <a href="tel:1-844-888-7732">
-                <Button className="bg-cart-orange text-white hover:bg-orange-600">
-                  <Phone className="h-4 w-4 mr-2 text-cart-green" />
+                <Button className="bg-lsv-orange text-white hover:bg-orange-600">
+                  <Phone className="h-4 w-4 mr-2 text-lsv-green" />
                   Call 1-844-888-7732
                 </Button>
               </a>
@@ -141,11 +141,11 @@ export default function ProductDetail() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center gap-2 text-sm">
             <Link href="/products">
-              <span className="text-cart-red hover:underline cursor-pointer">Products</span>
+              <span className="text-lsv-red hover:underline cursor-pointer">Products</span>
             </Link>
             <span className="text-gray-400">/</span>
             <Link href={`/products/${product.category.toLowerCase().replace(/[^a-z0-9]/g, '-')}`}>
-              <span className="text-cart-red hover:underline cursor-pointer">{product.category}</span>
+              <span className="text-lsv-red hover:underline cursor-pointer">{product.category}</span>
             </Link>
             <span className="text-gray-400">/</span>
             <span className="text-gray-600">{product.name}</span>
@@ -172,7 +172,7 @@ export default function ProductDetail() {
                   alt={product.altText}
                   className="w-full h-96 object-contain p-8"
                 />
-                <Badge className="absolute top-4 left-4 bg-cart-green text-white">
+                <Badge className="absolute top-4 left-4 bg-lsv-green text-white">
                   {product.inStock ? "In Stock" : "Out of Stock"}
                 </Badge>
                 <Badge className="absolute top-4 right-4 bg-white/90 text-gray-900">
@@ -191,7 +191,7 @@ export default function ProductDetail() {
             </div>
 
             <div className="mb-6">
-              <div className="text-4xl font-bold text-cart-red mb-2">
+              <div className="text-4xl font-bold text-lsv-red mb-2">
                 {product.price === "Call for Pricing" ? (
                   <span className="text-3xl">Call for Pricing</span>
                 ) : (
@@ -199,7 +199,7 @@ export default function ProductDetail() {
                 )}
               </div>
               <p className="text-gray-600">
-                Professional-grade battery with proven Cart Battery Depot reliability
+                Professional-grade battery with proven LSV Battery Depot reliability
               </p>
             </div>
 
@@ -244,7 +244,7 @@ export default function ProductDetail() {
 
               <div className="flex flex-col sm:flex-row gap-3">
                 <Button 
-                  className="bg-cart-orange text-white hover:bg-orange-600 flex-1"
+                  className="bg-lsv-orange text-white hover:bg-orange-600 flex-1"
                   onClick={() => addToCartMutation.mutate()}
                   disabled={!product.inStock || addToCartMutation.isPending || product.price === "Call for Pricing"}
                 >
@@ -255,9 +255,9 @@ export default function ProductDetail() {
                 <a href="tel:1-844-888-7732" className="flex-1">
                   <Button 
                     variant="outline" 
-                    className="w-full border-cart-red text-cart-red hover:bg-cart-red hover:text-white"
+                    className="w-full border-lsv-red text-lsv-red hover:bg-lsv-red hover:text-white"
                   >
-                    <Phone className="h-4 w-4 mr-2 text-cart-green" />
+                    <Phone className="h-4 w-4 mr-2 text-lsv-green" />
                     Call Expert: 1-844-888-7732
                   </Button>
                 </a>
@@ -267,15 +267,15 @@ export default function ProductDetail() {
             {/* Trust Indicators */}
             <div className="grid grid-cols-3 gap-4 text-center text-sm">
               <div className="flex flex-col items-center">
-                <CheckCircle className="h-6 w-6 text-cart-green mb-1" />
+                <CheckCircle className="h-6 w-6 text-lsv-green mb-1" />
                 <span>Quality Guaranteed</span>
               </div>
               <div className="flex flex-col items-center">
-                <Truck className="h-6 w-6 text-cart-green mb-1" />
+                <Truck className="h-6 w-6 text-lsv-green mb-1" />
                 <span>Fast Shipping</span>
               </div>
               <div className="flex flex-col items-center">
-                <Shield className="h-6 w-6 text-cart-green mb-1" />
+                <Shield className="h-6 w-6 text-lsv-green mb-1" />
                 <span>Warranty Included</span>
               </div>
             </div>
@@ -350,7 +350,7 @@ export default function ProductDetail() {
                       <ul className="space-y-1">
                         {product.systemCompatibility.map((config, index) => (
                           <li key={index} className="flex items-center">
-                            <CheckCircle className="h-4 w-4 text-cart-green mr-2" />
+                            <CheckCircle className="h-4 w-4 text-lsv-green mr-2" />
                             {config}
                           </li>
                         ))}
@@ -364,7 +364,7 @@ export default function ProductDetail() {
                       <ul className="space-y-1">
                         {product.applications.map((app, index) => (
                           <li key={index} className="flex items-center">
-                            <CheckCircle className="h-4 w-4 text-cart-green mr-2" />
+                            <CheckCircle className="h-4 w-4 text-lsv-green mr-2" />
                             {app}
                           </li>
                         ))}
@@ -384,7 +384,7 @@ export default function ProductDetail() {
                   <ul className="space-y-3">
                     {product.features.map((feature, index) => (
                       <li key={index} className="flex items-start">
-                        <CheckCircle className="h-5 w-5 text-cart-green mr-3 mt-0.5 flex-shrink-0" />
+                        <CheckCircle className="h-5 w-5 text-lsv-green mr-3 mt-0.5 flex-shrink-0" />
                         <span>{feature}</span>
                       </li>
                     ))}
@@ -402,26 +402,26 @@ export default function ProductDetail() {
                   <div className="space-y-6">
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="text-center p-6 border rounded-lg">
-                        <Phone className="h-8 w-8 text-cart-green mx-auto mb-3" />
+                        <Phone className="h-8 w-8 text-lsv-green mx-auto mb-3" />
                         <h4 className="font-semibold mb-2">Expert Installation Help</h4>
                         <p className="text-sm text-gray-600 mb-3">
                           Get professional guidance for battery installation and setup.
                         </p>
                         <a href="tel:1-844-888-7732">
-                          <Button size="sm" className="bg-cart-orange text-white hover:bg-orange-600">
+                          <Button size="sm" className="bg-lsv-orange text-white hover:bg-orange-600">
                             Call 1-844-888-7732
                           </Button>
                         </a>
                       </div>
                       
                       <div className="text-center p-6 border rounded-lg">
-                        <Wrench className="h-8 w-8 text-cart-green mx-auto mb-3" />
+                        <Wrench className="h-8 w-8 text-lsv-green mx-auto mb-3" />
                         <h4 className="font-semibold mb-2">Professional Installation</h4>
                         <p className="text-sm text-gray-600 mb-3">
                           Connect with certified installers in your area.
                         </p>
                         <a href="tel:1-844-888-7732">
-                          <Button size="sm" variant="outline" className="border-cart-red text-cart-red">
+                          <Button size="sm" variant="outline" className="border-lsv-red text-lsv-red">
                             Find Installer
                           </Button>
                         </a>
@@ -447,7 +447,7 @@ export default function ProductDetail() {
         {/* Related Products */}
         {relatedProducts.length > 0 && (
           <section className="mt-16">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">Related Cart Battery Depot</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-8">Related LSV Battery Depot</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {relatedProducts.map((relatedProduct) => (
                 <ProductCard key={relatedProduct.id} product={relatedProduct} />
@@ -458,18 +458,18 @@ export default function ProductDetail() {
 
         {/* Final CTA */}
         <section className="mt-16">
-          <Card className="p-8 text-center bg-cart-red text-white">
+          <Card className="p-8 text-center bg-lsv-red text-white">
             <h3 className="text-2xl font-bold mb-4">
-              Questions About This Cart Battery Depot Battery?
+              Questions About This LSV Battery Depot Battery?
             </h3>
             <p className="mb-6 text-blue-100">
               Our battery experts are standing by to help you with installation, compatibility, 
               and technical questions about {product.name}.
             </p>
             <a href="tel:1-844-888-7732">
-              <Button size="lg" className="bg-cart-orange text-white hover:bg-orange-600">
-                <Phone className="h-5 w-5 mr-2 text-cart-green" />
-                Call Cart Battery Depot Experts: 1-844-888-7732
+              <Button size="lg" className="bg-lsv-orange text-white hover:bg-orange-600">
+                <Phone className="h-5 w-5 mr-2 text-lsv-green" />
+                Call LSV Battery Depot Experts: 1-844-888-7732
               </Button>
             </a>
           </Card>

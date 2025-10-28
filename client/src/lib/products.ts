@@ -343,7 +343,7 @@ export const ProductUtils = {
       .replace('flooded-lead-acid', 'flooded')
       .replace('lithium-ion-lifepo4', 'lithium');
     
-    return `cart-battery-depot-${series.toLowerCase()}-${categorySlug}-${techSlug}`;
+    return `lsv-battery-depot-${series.toLowerCase()}-${categorySlug}-${techSlug}`;
   },
 
   extractVoltageFromSpecs: (product: Product): number => {
@@ -422,8 +422,8 @@ export const PRODUCT_CONSTANTS = {
   PHONE_NUMBER: "1-844-888-7732",
   
   SEO_KEYWORDS: [
-    "Cart Battery Depot",
-    "Golf Cart Batteries Depot",
+    "LSV Battery Depot",
+    "Low Speed Vehicle Battery Depot",
     "Golf Cart Batteries", 
     "LSV Batteries",
     "NEV Batteries",

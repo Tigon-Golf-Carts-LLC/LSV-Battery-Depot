@@ -106,16 +106,16 @@ export default function Products() {
   }, [allProducts]);
 
   const pageTitle = category 
-    ? `${categoryMap[category]} by Cart Battery Depot - 6V, 8V, 12V Deep Cycle Battery Solutions`
-    : "Cart Battery Depot - Complete Golf Cart, LSV, NEV & MSV Battery Catalog";
+    ? `${categoryMap[category]} by LSV Battery Depot - 6V, 8V, 12V Deep Cycle Battery Solutions`
+    : "LSV Battery Depot - Complete Golf Cart, LSV, NEV & MSV Battery Catalog";
 
   const pageDescription = category
-    ? `Premium ${categoryMap[category]} from Cart Battery Depot. Flooded, AGM, Gel & Lithium options. Expert support for all battery needs. Call 1-844-888-7732`
-    : "Browse Cart Battery Depot complete catalog of Golf Cart Batteries, LSV, NEV & MSV solutions. 96+ configurations available. Call 1-844-888-7732";
+    ? `Premium ${categoryMap[category]} from LSV Battery Depot. Flooded, AGM, Gel & Lithium options. Expert support for all battery needs. Call 1-844-888-7732`
+    : "Browse LSV Battery Depot complete catalog of Golf Cart Batteries, LSV, NEV & MSV solutions. 96+ configurations available. Call 1-844-888-7732";
 
   const displayTitle = category 
     ? categoryMap[category] 
-    : "Cart Battery Depot Complete Catalog";
+    : "LSV Battery Depot Complete Catalog";
 
   // Set SEO metadata
   useDocumentHead({
@@ -158,14 +158,14 @@ export default function Products() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center">
             <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              {category ? categoryMap[category] : "Cart Battery Depot Complete Catalog"}
+              {category ? categoryMap[category] : "LSV Battery Depot Complete Catalog"}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
               {pageDescription}
             </p>
             <a href="tel:1-844-888-7732">
-              <Button className="bg-cart-orange text-white px-6 py-3 hover:bg-orange-600">
-                <Phone className="h-4 w-4 mr-2 text-cart-green" />
+              <Button className="bg-lsv-orange text-white px-6 py-3 hover:bg-orange-600">
+                <Phone className="h-4 w-4 mr-2 text-lsv-green" />
                 Call Battery Experts: 1-844-888-7732
               </Button>
             </a>
@@ -269,14 +269,14 @@ export default function Products() {
                 <Separator className="my-6" />
 
                 {/* Expert Help CTA */}
-                <div className="bg-cart-red/10 p-4 rounded-lg text-center">
-                  <h4 className="font-semibold text-cart-red mb-2">Need Expert Help?</h4>
+                <div className="bg-lsv-red/10 p-4 rounded-lg text-center">
+                  <h4 className="font-semibold text-lsv-red mb-2">Need Expert Help?</h4>
                   <p className="text-sm text-gray-600 mb-3">
-                    Talk to our Cart Battery Depot battery specialists for personalized recommendations.
+                    Talk to our LSV Battery Depot battery specialists for personalized recommendations.
                   </p>
                   <a href="tel:1-844-888-7732">
-                    <Button size="sm" className="bg-cart-red text-white hover:bg-blue-700 w-full text-xs px-3">
-                      <Phone className="h-4 w-4 mr-1 text-cart-green" />
+                    <Button size="sm" className="bg-lsv-red text-white hover:bg-blue-700 w-full text-xs px-3">
+                      <Phone className="h-4 w-4 mr-1 text-lsv-green" />
                       Call 1-844-888-7732
                     </Button>
                   </a>
@@ -359,8 +359,8 @@ export default function Products() {
                     Clear All Filters
                   </Button>
                   <a href="tel:1-844-888-7732">
-                    <Button className="bg-cart-orange text-white hover:bg-orange-600">
-                      <Phone className="h-4 w-4 mr-2 text-cart-green" />
+                    <Button className="bg-lsv-orange text-white hover:bg-orange-600">
+                      <Phone className="h-4 w-4 mr-2 text-lsv-green" />
                       Call Expert: 1-844-888-7732
                     </Button>
                   </a>
@@ -383,12 +383,12 @@ export default function Products() {
                 <Card className="p-6 max-w-lg mx-auto">
                   <h3 className="font-semibold mb-2">Looking for something specific?</h3>
                   <p className="text-gray-600 mb-4">
-                    Our Cart Battery Depot battery experts can help you find the perfect match for your vehicle.
+                    Our LSV Battery Depot battery experts can help you find the perfect match for your vehicle.
                   </p>
                   <a href="tel:1-844-888-7732">
-                    <Button className="bg-cart-red text-white hover:bg-blue-700">
-                      <Phone className="h-4 w-4 mr-2 text-cart-green" />
-                      Call Cart Battery Depot Experts: 1-844-888-7732
+                    <Button className="bg-lsv-red text-white hover:bg-blue-700">
+                      <Phone className="h-4 w-4 mr-2 text-lsv-green" />
+                      Call LSV Battery Depot Experts: 1-844-888-7732
                     </Button>
                   </a>
                 </Card>

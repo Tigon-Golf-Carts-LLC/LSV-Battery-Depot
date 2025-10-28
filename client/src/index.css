@@ -52,10 +52,10 @@
   --tracking-normal: 0em;
   --spacing: 0.25rem;
   
-  /* Cart Battery Depot Brand Colors */
-  --cart-green: hsl(88, 47%, 53%);
-  --cart-blue: hsl(201, 65%, 45%);
-  --cart-orange: hsl(23, 83%, 54%);
+  /* LSV Battery Depot Brand Colors */
+  --lsv-green: hsl(88, 47%, 53%);
+  --lsv-blue: hsl(201, 65%, 45%);
+  --lsv-orange: hsl(23, 83%, 54%);
 }
 
 .dark {
@@ -115,13 +115,13 @@
   }
 }
 
-/* Custom Cart Battery Depot Styles */
+/* Custom LSV Battery Depot Styles */
 .hero-gradient {
-  background: linear-gradient(135deg, var(--cart-blue) 0%, #3b82f6 50%, var(--cart-green) 100%);
+  background: linear-gradient(135deg, var(--lsv-blue) 0%, #3b82f6 50%, var(--lsv-green) 100%);
 }
 
 .battery-selector-active {
-  background: linear-gradient(135deg, var(--cart-blue) 0%, #3b82f6 100%);
+  background: linear-gradient(135deg, var(--lsv-blue) 0%, #3b82f6 100%);
   color: white;
 }
 
@@ -134,84 +134,84 @@
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-.text-cart-blue {
-  color: var(--cart-blue);
+.text-lsv-blue {
+  color: var(--lsv-blue);
 }
 
-.text-cart-green {
-  color: var(--cart-green);
+.text-lsv-green {
+  color: var(--lsv-green);
 }
 
-.text-cart-orange {
-  color: var(--cart-orange);
+.text-lsv-orange {
+  color: var(--lsv-orange);
 }
 
-.text-cart-red {
-  color: var(--cart-red);
+.text-lsv-red {
+  color: var(--lsv-red);
 }
 
-.bg-cart-blue {
-  background-color: var(--cart-blue);
+.bg-lsv-blue {
+  background-color: var(--lsv-blue);
 }
 
-.bg-cart-green {
-  background-color: var(--cart-green);
+.bg-lsv-green {
+  background-color: var(--lsv-green);
 }
 
-.bg-cart-orange {
-  background-color: var(--cart-orange);
+.bg-lsv-orange {
+  background-color: var(--lsv-orange);
 }
 
-.bg-cart-red {
-  background-color: var(--cart-red);
+.bg-lsv-red {
+  background-color: var(--lsv-red);
 }
 
-.border-cart-blue {
-  border-color: var(--cart-blue);
+.border-lsv-blue {
+  border-color: var(--lsv-blue);
 }
 
-.border-cart-green {
-  border-color: var(--cart-green);
+.border-lsv-green {
+  border-color: var(--lsv-green);
 }
 
-.border-cart-orange {
-  border-color: var(--cart-orange);
+.border-lsv-orange {
+  border-color: var(--lsv-orange);
 }
 
-.border-cart-red {
-  border-color: var(--cart-red);
+.border-lsv-red {
+  border-color: var(--lsv-red);
 }
 
-.hover\:bg-cart-blue:hover {
-  background-color: var(--cart-blue);
+.hover\:bg-lsv-blue:hover {
+  background-color: var(--lsv-blue);
 }
 
-.hover\:bg-cart-green:hover {
-  background-color: var(--cart-green);
+.hover\:bg-lsv-green:hover {
+  background-color: var(--lsv-green);
 }
 
-.hover\:bg-cart-orange:hover {
-  background-color: var(--cart-orange);
+.hover\:bg-lsv-orange:hover {
+  background-color: var(--lsv-orange);
 }
 
-.hover\:bg-cart-red:hover {
-  background-color: var(--cart-red);
+.hover\:bg-lsv-red:hover {
+  background-color: var(--lsv-red);
 }
 
-.hover\:text-cart-blue:hover {
-  color: var(--cart-blue);
+.hover\:text-lsv-blue:hover {
+  color: var(--lsv-blue);
 }
 
-.hover\:text-cart-green:hover {
-  color: var(--cart-green);
+.hover\:text-lsv-green:hover {
+  color: var(--lsv-green);
 }
 
-.hover\:text-cart-orange:hover {
-  color: var(--cart-orange);
+.hover\:text-lsv-orange:hover {
+  color: var(--lsv-orange);
 }
 
-.hover\:text-cart-red:hover {
-  color: var(--cart-red);
+.hover\:text-lsv-red:hover {
+  color: var(--lsv-red);
 }
 
 /* Mobile Responsiveness Optimizations */

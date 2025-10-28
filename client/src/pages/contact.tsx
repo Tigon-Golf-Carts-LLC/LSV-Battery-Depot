@@ -33,8 +33,8 @@ type QuoteFormData = z.infer<typeof quoteFormSchema>;
 export default function Contact() {
   // Set SEO metadata
   useDocumentHead({
-    title: "Contact Cart Battery Depot Battery Experts",
-    description: "Get expert guidance on Golf Cart Batteries, LSV, NEV & MSV solutions from Cart Battery Depot specialists. Our team is ready to help you choose from 96+ battery configurations. Call 1-844-888-7732.",
+    title: "Contact LSV Battery Depot Battery Experts",
+    description: "Get expert guidance on Low Speed Vehicle (LSV) Batteries, NEV, MSV & Golf Cart solutions from LSV Battery Depot specialists. Our team is ready to help you choose from 96+ battery configurations. Call 1-844-888-7732.",
     ogImage: "/og/logo.png",
     ogImageWidth: 512,
     ogImageHeight: 512
@@ -65,7 +65,7 @@ export default function Contact() {
       setFormSubmitted(true);
       toast({
         title: "Quote request submitted!",
-        description: "Our Cart Battery Depot battery experts will contact you within 24 hours.",
+        description: "Our LSV Battery Depot battery experts will contact you within 24 hours.",
       });
     },
     onError: () => {
@@ -85,7 +85,7 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Call Our Battery Experts",
-      description: "Speak directly with Cart Battery Depot battery specialists for immediate assistance",
+      description: "Speak directly with LSV Battery Depot battery specialists for immediate assistance",
       contact: "1-844-888-7732",
       link: "tel:1-844-888-7732",
       hours: "Monday - Friday: 8AM - 6PM EST",
@@ -95,14 +95,14 @@ export default function Contact() {
       icon: Mail,
       title: "Email Support",
       description: "Send us your detailed questions and requirements",
-      contact: "experts@cartbatterydepot.com",
-      link: "mailto:experts@cartbatterydepot.com",
+      contact: "experts@lsvbatterydepot.com",
+      link: "mailto:experts@lsvbatterydepot.com",
       hours: "Response within 24 hours"
     },
     {
       icon: MessageSquare,
       title: "Live Chat",
-      description: "Get instant answers to your Cart Battery Depot battery questions",
+      description: "Get instant answers to your LSV Battery Depot battery questions",
       contact: "Available on website",
       link: "#",
       hours: "Monday - Friday: 8AM - 6PM EST"
@@ -139,16 +139,16 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-              Contact Cart Battery Depot Battery Experts
+              Contact LSV Battery Depot Battery Experts
             </h1>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
-              Get expert guidance on Golf Cart Batteries, LSV, NEV & MSV solutions. Our specialists 
+              Get expert guidance on Low Speed Vehicle (LSV) Batteries, NEV, MSV & Golf Cart solutions. Our specialists 
               are here to help you choose from our complete lineup of 96+ battery configurations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-888-7732">
-                <Button size="lg" className="bg-cart-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
-                  <Phone className="h-5 w-5 mr-2 text-cart-green" />
+                <Button size="lg" className="bg-lsv-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
+                  <Phone className="h-5 w-5 mr-2 text-lsv-green" />
                   Call Now: 1-844-888-7732
                 </Button>
               </a>
@@ -165,22 +165,22 @@ export default function Contact() {
         {/* Contact Methods */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-            Get in Touch with Cart Battery Depot
+            Get in Touch with LSV Battery Depot
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
             {contactMethods.map((method, index) => {
               const Icon = method.icon;
               return (
-                <Card key={index} className={`text-center ${method.primary ? 'ring-2 ring-cart-orange' : ''}`}>
+                <Card key={index} className={`text-center ${method.primary ? 'ring-2 ring-lsv-orange' : ''}`}>
                   <CardContent className="p-6">
                     {method.primary && (
-                      <Badge className="mb-4 bg-cart-orange text-white">Recommended</Badge>
+                      <Badge className="mb-4 bg-lsv-orange text-white">Recommended</Badge>
                     )}
                     <div className={`w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 ${
-                      method.primary ? 'bg-cart-orange/10' : 'bg-cart-red/10'
+                      method.primary ? 'bg-lsv-orange/10' : 'bg-lsv-red/10'
                     }`}>
-                      <Icon className={`h-8 w-8 text-cart-green`} />
+                      <Icon className={`h-8 w-8 text-lsv-green`} />
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">{method.title}</h3>
                     <p className="text-gray-600 mb-4">{method.description}</p>
@@ -188,7 +188,7 @@ export default function Contact() {
                       <a 
                         href={method.link} 
                         className={`font-semibold text-lg ${
-                          method.primary ? 'text-cart-orange hover:text-orange-600' : 'text-cart-red hover:text-blue-700'
+                          method.primary ? 'text-lsv-orange hover:text-orange-600' : 'text-lsv-red hover:text-blue-700'
                         }`}
                       >
                         {method.contact}
@@ -210,37 +210,37 @@ export default function Contact() {
                 Request a Custom Battery Quote
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Fill out the form below and our Cart Battery Depot battery experts will provide you with 
-                a personalized quote for your Golf Cart, LSV, NEV, or MSV battery needs.
+                Fill out the form below and our LSV Battery Depot battery experts will provide you with 
+                a personalized quote for your Low Speed Vehicle (LSV), NEV, MSV, or Golf Cart battery needs.
               </p>
 
               <div className="space-y-4">
                 <div className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-cart-green mr-3" />
+                  <CheckCircle className="h-5 w-5 text-lsv-green mr-3" />
                   <span className="text-gray-700">Expert consultation included</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-cart-green mr-3" />
+                  <CheckCircle className="h-5 w-5 text-lsv-green mr-3" />
                   <span className="text-gray-700">Competitive pricing guarantee</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-cart-green mr-3" />
+                  <CheckCircle className="h-5 w-5 text-lsv-green mr-3" />
                   <span className="text-gray-700">Professional installation available</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-cart-green mr-3" />
+                  <CheckCircle className="h-5 w-5 text-lsv-green mr-3" />
                   <span className="text-gray-700">24-hour response guarantee</span>
                 </div>
               </div>
 
-              <Card className="mt-8 p-4 bg-cart-red text-white">
+              <Card className="mt-8 p-4 bg-lsv-red text-white">
                 <h4 className="font-bold mb-2">Prefer to Talk? Call Us Now!</h4>
                 <p className="text-blue-100 mb-3">
                   Or call us directly at 1-844-888-7732 for immediate assistance.
                 </p>
                 <a href="tel:1-844-888-7732">
-                  <Button className="bg-cart-orange text-white hover:bg-orange-600">
-                    <Phone className="h-4 w-4 mr-2 text-cart-green" />
+                  <Button className="bg-lsv-orange text-white hover:bg-orange-600">
+                    <Phone className="h-4 w-4 mr-2 text-lsv-green" />
                     Call 1-844-888-7732
                   </Button>
                 </a>
@@ -249,25 +249,25 @@ export default function Contact() {
 
             <div>
               {formSubmitted ? (
-                <Card className="p-8 text-center bg-cart-green/5 border-cart-green">
-                  <CheckCircle className="h-16 w-16 text-cart-green mx-auto mb-4" />
+                <Card className="p-8 text-center bg-lsv-green/5 border-lsv-green">
+                  <CheckCircle className="h-16 w-16 text-lsv-green mx-auto mb-4" />
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">
                     Quote Request Submitted Successfully!
                   </h3>
                   <p className="text-gray-600 mb-6">
-                    Thank you for your interest in Cart Battery Depot. Our battery experts will 
+                    Thank you for your interest in LSV Battery Depot. Our battery experts will 
                     review your requirements and contact you within 24 hours with a personalized quote.
                   </p>
                   <div className="space-y-4">
                     <div className="flex items-center justify-center">
-                      <Clock className="h-5 w-5 text-cart-green mr-2" />
+                      <Clock className="h-5 w-5 text-lsv-green mr-2" />
                       <span className="text-gray-700">Expected response: Within 24 hours</span>
                     </div>
                     <div className="pt-4">
                       <p className="text-sm text-gray-600 mb-3">Need immediate assistance?</p>
                       <a href="tel:1-844-888-7732">
-                        <Button className="bg-cart-orange text-white hover:bg-orange-600">
-                          <Phone className="h-4 w-4 mr-2 text-cart-green" />
+                        <Button className="bg-lsv-orange text-white hover:bg-orange-600">
+                          <Phone className="h-4 w-4 mr-2 text-lsv-green" />
                           Call 1-844-888-7732
                         </Button>
                       </a>
@@ -428,7 +428,7 @@ export default function Contact() {
 
                         <Button 
                           type="submit" 
-                          className="w-full bg-cart-orange text-white hover:bg-orange-600"
+                          className="w-full bg-lsv-orange text-white hover:bg-orange-600"
                           disabled={submitQuoteMutation.isPending}
                         >
                           {submitQuoteMutation.isPending ? "Submitting..." : "Request Quote"}
@@ -436,7 +436,7 @@ export default function Contact() {
 
                         <p className="text-center text-sm text-gray-600">
                           Or call us directly at{" "}
-                          <a href="tel:1-844-888-7732" className="text-cart-red font-semibold">
+                          <a href="tel:1-844-888-7732" className="text-lsv-red font-semibold">
                             1-844-888-7732
                           </a>
                         </p>
@@ -452,7 +452,7 @@ export default function Contact() {
         {/* Support Areas */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-            How Our Cart Battery Depot Battery Experts Can Help
+            How Our LSV Battery Depot Battery Experts Can Help
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -461,15 +461,15 @@ export default function Contact() {
               return (
                 <Card key={index}>
                   <CardContent className="p-6">
-                    <div className="bg-cart-red/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Icon className="h-8 w-8 text-cart-green" />
+                    <div className="bg-lsv-red/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Icon className="h-8 w-8 text-lsv-green" />
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 text-center mb-3">{area.title}</h3>
                     <p className="text-gray-600 text-center mb-4">{area.description}</p>
                     <ul className="space-y-2">
                       {area.areas.map((item, idx) => (
                         <li key={idx} className="flex items-center text-sm">
-                          <CheckCircle className="h-4 w-4 text-cart-green mr-2 flex-shrink-0" />
+                          <CheckCircle className="h-4 w-4 text-lsv-green mr-2 flex-shrink-0" />
                           {item}
                         </li>
                       ))}
@@ -487,7 +487,7 @@ export default function Contact() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <Clock className="h-5 w-5 mr-2 text-cart-green" />
+                  <Clock className="h-5 w-5 mr-2 text-lsv-green" />
                   Business Hours
                 </CardTitle>
               </CardHeader>
@@ -506,11 +506,11 @@ export default function Contact() {
                     <span className="text-gray-600">Emergency Support Only</span>
                   </div>
                 </div>
-                <div className="mt-6 p-4 bg-cart-green/10 rounded-lg">
+                <div className="mt-6 p-4 bg-lsv-green/10 rounded-lg">
                   <p className="text-sm text-gray-700">
                     <strong>Emergency Support:</strong> For critical battery failures, 
                     call our emergency line at{" "}
-                    <a href="tel:1-844-888-7732" className="text-cart-green font-semibold">
+                    <a href="tel:1-844-888-7732" className="text-lsv-green font-semibold">
                       1-844-888-7732
                     </a>
                   </p>
@@ -521,7 +521,7 @@ export default function Contact() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <MapPin className="h-5 w-5 mr-2 text-cart-green" />
+                  <MapPin className="h-5 w-5 mr-2 text-lsv-green" />
                   Service Areas
                 </CardTitle>
               </CardHeader>
@@ -530,7 +530,7 @@ export default function Contact() {
                   <div>
                     <h4 className="font-semibold mb-2">Nationwide Shipping</h4>
                     <p className="text-sm text-gray-600">
-                      We ship Cart Battery Depot to all 50 states with fast, 
+                      We ship LSV Battery Depot to all 50 states with fast, 
                       reliable delivery options.
                     </p>
                   </div>
@@ -556,22 +556,22 @@ export default function Contact() {
 
         {/* Final CTA */}
         <section>
-          <Card className="p-8 text-center bg-cart-red text-white">
+          <Card className="p-8 text-center bg-lsv-red text-white">
             <h3 className="text-3xl font-bold mb-4">
-              Ready to Get Started with Cart Battery Depot?
+              Ready to Get Started with LSV Battery Depot?
             </h3>
             <p className="text-xl mb-6 text-blue-100">
               Don't wait - our battery experts are standing by to help you choose the perfect 
-              Cart Battery Depot battery solution for your Golf Cart, LSV, NEV, or MSV needs.
+              LSV Battery Depot battery solution for your Golf Cart, LSV, NEV, or MSV needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-888-7732">
-                <Button size="lg" className="bg-cart-orange text-white hover:bg-orange-600">
-                  <Phone className="h-5 w-5 mr-2 text-cart-green" />
-                  Call Cart Battery Depot Experts: 1-844-888-7732
+                <Button size="lg" className="bg-lsv-orange text-white hover:bg-orange-600">
+                  <Phone className="h-5 w-5 mr-2 text-lsv-green" />
+                  Call LSV Battery Depot Experts: 1-844-888-7732
                 </Button>
               </a>
-              <Button size="lg" variant="outline" className="bg-white text-cart-red hover:bg-gray-100">
+              <Button size="lg" variant="outline" className="bg-white text-lsv-red hover:bg-gray-100">
                 <MessageSquare className="h-5 w-5 mr-2" />
                 Start Live Chat
               </Button>

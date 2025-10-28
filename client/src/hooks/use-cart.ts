@@ -19,7 +19,7 @@ export const useCart = create<CartStore>()(
       setItemCount: (count) => set({ itemCount: count }),
     }),
     {
-      name: 'cart-battery-depot-cart-storage',
+      name: 'lsv-battery-depot-cart-storage',
     }
   )
 );

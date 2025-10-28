@@ -6,7 +6,7 @@ export default function NotFound() {
   // Set SEO metadata
   useDocumentHead({
     title: "404 Page Not Found",
-    description: "The page you're looking for doesn't exist. Browse our complete catalog of Cart Battery Depot Golf Cart Batteries, LSV, NEV & MSV solutions. Call 1-844-888-7732.",
+    description: "The page you're looking for doesn't exist. Browse our complete catalog of LSV Battery Depot Golf Cart Batteries, LSV, NEV & MSV solutions. Call 1-844-888-7732.",
     ogImage: "/og/logo.png",
     ogImageWidth: 512,
     ogImageHeight: 512
