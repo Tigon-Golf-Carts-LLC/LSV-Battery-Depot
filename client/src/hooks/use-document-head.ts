@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { seoConfig } from '@shared/seo-config';
 
 export interface SEOData {
   title: string;
@@ -8,6 +9,7 @@ export interface SEOData {
   ogImageHeight?: number;
 }
 
+// Enhanced SEO hook with comprehensive meta tags
 export function useDocumentHead({ title, description, ogImage, ogImageWidth, ogImageHeight }: SEOData) {
   useEffect(() => {
     // Update document title
@@ -53,21 +55,33 @@ export function useDocumentHead({ title, description, ogImage, ogImageWidth, ogI
     // Set Open Graph tags
     updateOrCreateMeta('og:title', title);
     updateOrCreateMeta('og:description', description);
-    updateOrCreateMeta('og:type', 'website');
+    updateOrCreateMeta('og:type', seoConfig.ogType);
     updateOrCreateMeta('og:url', window.location.href);
+    updateOrCreateMeta('og:site_name', seoConfig.siteName);
+    updateOrCreateMeta('og:locale', seoConfig.ogLocale);
     
-    if (ogImage) {
-      updateOrCreateMeta('og:image', ogImage);
-      if (ogImageWidth) updateOrCreateMeta('og:image:width', ogImageWidth.toString());
-      if (ogImageHeight) updateOrCreateMeta('og:image:height', ogImageHeight.toString());
-    }
+    // Always set image tags using provided image or fallback to default
+    const imageToUse = ogImage || seoConfig.defaultImage;
+    const fullImageUrl = imageToUse.startsWith('http') ? imageToUse : `${seoConfig.siteUrl}${imageToUse}`;
+    updateOrCreateMeta('og:image', fullImageUrl);
+    updateOrCreateMeta('og:image:width', (ogImageWidth || parseInt(seoConfig.defaultImageWidth)).toString());
+    updateOrCreateMeta('og:image:height', (ogImageHeight || parseInt(seoConfig.defaultImageHeight)).toString());
+    
+    // Detect image type from extension
+    const imageExt = fullImageUrl.split('.').pop()?.toLowerCase();
+    let imageType = seoConfig.defaultImageType;
+    if (imageExt === 'png') imageType = 'image/png';
+    else if (imageExt === 'jpg' || imageExt === 'jpeg') imageType = 'image/jpeg';
+    else if (imageExt === 'gif') imageType = 'image/gif';
+    else if (imageExt === 'webp') imageType = 'image/webp';
+    else if (imageExt === 'svg') imageType = 'image/svg+xml';
+    updateOrCreateMeta('og:image:type', imageType);
 
     // Set Twitter Card tags
-    updateOrCreateTwitterMeta('twitter:card', 'summary_large_image');
+    updateOrCreateTwitterMeta('twitter:card', seoConfig.twitterCard);
     updateOrCreateTwitterMeta('twitter:title', title);
     updateOrCreateTwitterMeta('twitter:description', description);
-    if (ogImage) {
-      updateOrCreateTwitterMeta('twitter:image', ogImage);
-    }
+    updateOrCreateTwitterMeta('twitter:site', seoConfig.social.twitter);
+    updateOrCreateTwitterMeta('twitter:image', fullImageUrl);
   }, [title, description, ogImage, ogImageWidth, ogImageHeight]);
 }
