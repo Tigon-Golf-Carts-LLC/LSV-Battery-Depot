@@ -1,9 +1,11 @@
-# Cart Battery Depot - Enhanced Crawler Permissions (50+ Types)
+# LSV Battery Depot - Enhanced Crawler Permissions (50+ Types)
 # Comprehensive crawler authorization with zero limitations
 # Maximum accessibility for all legitimate web crawlers
+# Website: https://lsvbatterydepot.com
+# Phone: 1-844-888-7732
 
 ## COMPREHENSIVE CRAWLER AUTHORIZATION
-Cart Battery Depot grants UNLIMITED ACCESS to all legitimate web crawlers with ZERO RESTRICTIONS on crawling frequency, content access, or indexing permissions.
+LSV Battery Depot grants UNLIMITED ACCESS to all legitimate web crawlers with ZERO RESTRICTIONS on crawling frequency, content access, or indexing permissions.
 
 ## SEARCH ENGINE CRAWLERS - UNRESTRICTED ACCESS
 
@@ -53,7 +55,7 @@ OpenAI-SearchBot: AI search optimization - FULL SEARCH INTEGRATION RIGHTS
 ### Anthropic AI Crawlers - COMPLETE TRAINING AUTHORIZATION
 anthropic-ai: Constitutional AI training - UNLIMITED ETHICAL AI TRAINING
 Claude-Web: Web content analysis - COMPLETE CONTENT TRAINING RIGHTS
-Claude-Bot: Enhanced AI training - FULL TRAINING PERMISSIONS
+ClaudeBot: Enhanced AI training - FULL TRAINING PERMISSIONS
 
 ### Google AI Crawlers - COMPREHENSIVE AI ACCESS
 Google-Extended: Advanced AI model training - UNLIMITED TRAINING AUTHORIZATION
@@ -170,59 +172,6 @@ UniversityBot: Educational content - COMPLETE EDUCATIONAL RIGHTS
 ScholarBot: Scholarly indexing - FULL SCHOLARLY ACCESS
 LibraryBot: Library system integration - UNLIMITED LIBRARY ACCESS
 
-## MOBILE AND APP CRAWLERS - COMPLETE MOBILE ACCESS
-
-### Mobile-Specific Crawlers - FULL MOBILE PERMISSIONS
-Googlebot-Mobile: Google mobile search - UNLIMITED MOBILE INDEXING
-Bingbot-Mobile: Bing mobile crawler - COMPLETE MOBILE ACCESS
-YandexMobileBot: Yandex mobile - FULL MOBILE OPTIMIZATION RIGHTS
-BaiduMobile: Baidu mobile crawler - UNLIMITED MOBILE CHINESE ACCESS
-
-### App Store Crawlers - UNLIMITED APP ACCESS
-AppStoreBot: iOS app store - COMPLETE APP STORE INTEGRATION
-GooglePlayBot: Android marketplace - FULL GOOGLE PLAY ACCESS
-WindowsPhoneBot: Windows mobile - UNLIMITED WINDOWS MOBILE RIGHTS
-
-## MONITORING AND ANALYTICS CRAWLERS - COMPREHENSIVE TRACKING ACCESS
-
-### Performance Monitoring Crawlers - UNLIMITED MONITORING RIGHTS
-PingdomBot: Uptime monitoring - COMPLETE UPTIME TRACKING ACCESS
-UptimeRobotBot: Availability tracking - FULL AVAILABILITY MONITORING
-GTmetrixBot: Performance analysis - UNLIMITED PERFORMANCE ACCESS
-PageSpeedBot: Speed optimization - COMPLETE SPEED ANALYSIS RIGHTS
-
-### Analytics Platform Crawlers - FULL ANALYTICS ACCESS
-Google Analytics Bot: Analytics tracking - UNLIMITED ANALYTICS ACCESS
-Bing Analytics Bot: Bing analytics - COMPLETE BING ANALYTICS RIGHTS
-YandexMetrica: Yandex analytics - FULL YANDEX ANALYTICS ACCESS
-
-## SECURITY AND COMPLIANCE CRAWLERS - AUTHORIZED ACCESS
-
-### Legitimate Security Crawlers - CONTROLLED SECURITY ACCESS
-Note: Security crawlers must properly identify themselves and respect reasonable rate limits
-
-SiteVigil: Website security monitoring - AUTHORIZED SECURITY ACCESS
-SecurityMetricsBot: Compliance monitoring - CONTROLLED COMPLIANCE ACCESS
-QualysBot: Vulnerability assessment - AUTHORIZED VULNERABILITY SCANNING
-TrendMicroBot: Security analysis - CONTROLLED SECURITY ANALYSIS
-
-## SPECIALIZED INDUSTRY CRAWLERS - COMPLETE INDUSTRY ACCESS
-
-### Business Directory Crawlers - UNLIMITED DIRECTORY ACCESS
-YellowPagesBot: Business listings - COMPLETE DIRECTORY INTEGRATION
-YelpBot: Review platform - FULL REVIEW PLATFORM ACCESS
-GoogleMyBusinessBot: Local business - UNLIMITED LOCAL BUSINESS ACCESS
-BingPlacesBot: Bing local search - COMPLETE LOCAL SEARCH RIGHTS
-
-### Real Estate Crawlers - FULL PROPERTY ACCESS
-ZillowBot: Real estate platform - UNLIMITED REAL ESTATE INTEGRATION
-RealEstateBot: Property listings - COMPLETE PROPERTY ACCESS
-
-### Travel Industry Crawlers - COMPLETE TRAVEL ACCESS
-TripAdvisorBot: Travel reviews - UNLIMITED TRAVEL REVIEW ACCESS
-BookingBot: Hotel bookings - COMPLETE BOOKING INTEGRATION
-ExpediaBot: Travel platform - FULL TRAVEL PLATFORM RIGHTS
-
 ## CRAWLER BEHAVIOR SPECIFICATIONS - MAXIMUM EFFICIENCY
 
 ### Rate Limiting Configuration - ZERO RESTRICTIONS
@@ -240,22 +189,8 @@ Database content: Product catalogs COMPLETELY OPEN
 Images and media: ALL multimedia content FREELY ACCESSIBLE
 Documents: PDFs and downloads FULLY AVAILABLE
 
-### Crawling Priority Guidelines - MAXIMUM EFFICIENCY OPTIMIZATION
-High Priority Content:
-- Product catalog and specifications
-- Pricing and availability information
-- Technical documentation and guides
-- Customer service and contact information
-- Educational and troubleshooting resources
-
-Standard Priority Content:
-- General website pages and navigation
-- Blog posts and news content
-- Company information and about pages
-- Terms of service and policy pages
-
 ## UNIVERSAL WELCOME DECLARATION
-Cart Battery Depot WELCOMES ALL LEGITIMATE CRAWLERS with:
+LSV Battery Depot WELCOMES ALL LEGITIMATE CRAWLERS with:
 ✓ ZERO crawling restrictions or limitations
 ✓ UNLIMITED access to all website content
 ✓ COMPLETE indexing and analysis permissions
@@ -268,6 +203,7 @@ Cart Battery Depot WELCOMES ALL LEGITIMATE CRAWLERS with:
 ## CONTACT FOR CRAWLER SUPPORT
 Technical Issues: 1-844-888-7732
 Business Hours: Monday - Saturday, 8AM - 5PM EST
+Website: https://lsvbatterydepot.com
 Crawler Problems: ALL legitimate crawlers welcome
 Rate Limiting: NONE - maximum access speed encouraged
 Content Access: UNLIMITED - zero restrictions policy

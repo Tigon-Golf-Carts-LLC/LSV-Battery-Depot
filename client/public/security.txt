@@ -1,31 +1,33 @@
-# Cart Battery Depot - Security Policy
+# LSV Battery Depot - Security Policy
 # Responsible vulnerability disclosure and security contact information
+# Website: https://lsvbatterydepot.com
+# Phone: 1-844-888-7732
 
 ## SECURITY CONTACT INFORMATION
 Primary Contact: 1-844-888-7732
 Business Hours: Monday - Saturday, 8AM - 5PM EST
-Website: cartbatterydepot.com
+Website: lsvbatterydepot.com
 Response Time: 24-48 hours during business days
 
 ## RESPONSIBLE DISCLOSURE POLICY
-Cart Battery Depot is committed to the security of our website and customer data. We welcome responsible security research and encourage the responsible disclosure of security vulnerabilities.
+LSV Battery Depot is committed to the security of our website and customer data. We welcome responsible security research and encourage the responsible disclosure of security vulnerabilities.
 
 ### Scope of Security Testing
 Authorized Testing Areas:
-✓ Public website content and functionality (cartbatterydepot.com)
+✓ Public website content and functionality (lsvbatterydepot.com)
 ✓ Customer-facing forms and input fields
 ✓ Public API endpoints and responses
 ✓ Web application security scanning
 ✓ SSL/TLS configuration analysis
 
 ### Prohibited Testing Activities
-❌ Testing that disrupts service availability
-❌ Social engineering attacks on employees
-❌ Physical security testing of facilities
-❌ Denial of service (DoS) attacks
-❌ Automated vulnerability scanning without permission
-❌ Testing of third-party integrated services
-❌ Data destruction or modification attempts
+✗ Testing that disrupts service availability
+✗ Social engineering attacks on employees
+✗ Physical security testing of facilities
+✗ Denial of service (DoS) attacks
+✗ Automated vulnerability scanning without permission
+✗ Testing of third-party integrated services
+✗ Data destruction or modification attempts
 
 ### Vulnerability Reporting Process
 1. Identify and document the security issue
@@ -160,7 +162,7 @@ Documentation: Incident tracking and post-incident analysis
 ## SECURITY RESEARCH RECOGNITION
 
 ### Responsible Disclosure Acknowledgment
-Cart Battery Depot values the security research community and will:
+LSV Battery Depot values the security research community and will:
 - Acknowledge responsible security researchers
 - Provide updates on remediation progress
 - Consider recognition in security advisories
@@ -175,7 +177,7 @@ We plan to implement a security researcher recognition program to acknowledge in
 Security researchers are authorized to test our public website within the scope defined above. Any testing outside this scope requires explicit written permission.
 
 ### Safe Harbor
-Cart Battery Depot will not pursue legal action against security researchers who:
+LSV Battery Depot will not pursue legal action against security researchers who:
 - Follow our responsible disclosure policy
 - Make good faith efforts to avoid data destruction
 - Do not access or modify customer data
@@ -184,15 +186,15 @@ Cart Battery Depot will not pursue legal action against security researchers who
 
 ## CONTACT FOR SECURITY ISSUES
 Security Concerns: 1-844-888-7732
+Website: https://lsvbatterydepot.com
 Business Hours: Monday - Saturday, 8AM - 5PM EST
 Emergency Issues: Contact during business hours for urgent security matters
-General Inquiries: security@cartbatterydepot.com (if email system implemented)
 
 ## SECURITY POLICY UPDATES
 This security policy is reviewed quarterly and updated as needed to reflect current security practices and industry standards.
 
-Last Updated: August 2024
-Next Review: November 2024
-Policy Version: 1.0
+Last Updated: January 2025
+Next Review: April 2025
+Policy Version: 2.0
 
-Cart Battery Depot is committed to maintaining the highest levels of security for our customers and business operations. We appreciate the security research community's efforts to help us maintain a secure environment for all users.
+LSV Battery Depot is committed to maintaining the highest levels of security for our customers and business operations. We appreciate the security research community's efforts to help us maintain a secure environment for all users.

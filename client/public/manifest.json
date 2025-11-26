@@ -1,14 +1,14 @@
 {
-  "name": "Cart Battery Depot - Electric Vehicle Battery Solutions",
-  "short_name": "Cart Battery Depot",
-  "description": "Professional electric vehicle battery solutions for Golf Cart, LSV, NEV, and MSV applications. 96+ battery configurations with expert support.",
+  "name": "LSV Battery Depot - Low Speed Vehicle Battery Experts",
+  "short_name": "LSV Battery Depot",
+  "description": "Professional Low Speed Vehicle (LSV) battery solutions. Premium batteries for LSV, NEV, MSV and Golf Cart applications. 96+ configurations with expert support. Call 1-844-888-7732.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "theme_color": "#af1f31",
+  "theme_color": "#edb620",
   "background_color": "#ffffff",
-  "categories": ["shopping", "automotive", "utilities"],
+  "categories": ["shopping", "automotive", "utilities", "business"],
   "lang": "en-US",
   "dir": "ltr",
   "icons": [
@@ -19,21 +19,21 @@
       "purpose": "any maskable"
     },
     {
-      "src": "/favicon.png", 
+      "src": "/favicon.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
       "src": "/favicon.png",
-      "sizes": "144x144", 
+      "sizes": "144x144",
       "type": "image/png",
       "purpose": "any"
     },
     {
       "src": "/favicon.png",
       "sizes": "96x96",
-      "type": "image/png", 
+      "type": "image/png",
       "purpose": "any"
     },
     {
@@ -55,17 +55,30 @@
       "sizes": "1280x720",
       "type": "image/png",
       "platform": "wide",
-      "label": "Cart Battery Depot desktop experience showing product catalog and battery selector"
+      "label": "LSV Battery Depot desktop experience showing product catalog and battery selector"
     },
     {
-      "src": "/screenshot-mobile.png", 
+      "src": "/screenshot-mobile.png",
       "sizes": "390x844",
       "type": "image/png",
       "platform": "narrow",
-      "label": "Cart Battery Depot mobile experience optimized for on-the-go battery shopping"
+      "label": "LSV Battery Depot mobile experience optimized for on-the-go battery shopping"
     }
   ],
   "shortcuts": [
+    {
+      "name": "LSV Batteries",
+      "short_name": "LSV",
+      "description": "Browse Low Speed Vehicle battery solutions",
+      "url": "/products/lsv",
+      "icons": [
+        {
+          "src": "/favicon.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
     {
       "name": "Product Catalog",
       "short_name": "Products",
@@ -81,13 +94,13 @@
     },
     {
       "name": "Battery Selector",
-      "short_name": "Selector", 
+      "short_name": "Selector",
       "description": "Find your perfect battery match with our expert quiz",
       "url": "/battery-selector",
       "icons": [
         {
           "src": "/favicon.png",
-          "sizes": "96x96", 
+          "sizes": "96x96",
           "type": "image/png"
         }
       ]
@@ -101,14 +114,14 @@
         {
           "src": "/favicon.png",
           "sizes": "96x96",
-          "type": "image/png" 
+          "type": "image/png"
         }
       ]
     },
     {
       "name": "Battery Guide",
       "short_name": "Guide",
-      "description": "Learn about golf cart batteries and maintenance",
+      "description": "Learn about LSV batteries and maintenance",
       "url": "/battery-guide",
       "icons": [
         {
@@ -129,14 +142,14 @@
   },
   "protocol_handlers": [
     {
-      "protocol": "web+tigonbatteries",
+      "protocol": "web+lsvbatteries",
       "url": "/?handler=%s"
     }
   ],
   "handle_links": "preferred",
   "capture_links": "new-client",
   "display_override": ["window-controls-overlay", "standalone", "minimal-ui", "browser"],
-  "id": "tigonbatteries-pwa",
+  "id": "lsvbatterydepot-pwa",
   "iarc_rating_id": "",
   "share_target": {
     "action": "/share-target",
@@ -144,7 +157,7 @@
     "enctype": "multipart/form-data",
     "params": {
       "title": "title",
-      "text": "text", 
+      "text": "text",
       "url": "url",
       "files": [
         {

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-  <ShortName>Cart Battery Depot</ShortName>
-  <Description>Search Cart Battery Depot for electric vehicle battery solutions - Golf Cart, LSV, NEV, MSV batteries</Description>
-  <Tags>batteries golf cart electric vehicle LSV NEV MSV</Tags>
+  <ShortName>LSV Battery Depot</ShortName>
+  <Description>Search LSV Battery Depot for low speed vehicle battery solutions - LSV, NEV, MSV, Golf Cart batteries</Description>
+  <Tags>batteries lsv low speed vehicle electric vehicle NEV MSV golf cart</Tags>
   <Contact>1-844-888-7732</Contact>
-  <Url type="text/html" template="https://cartbatterydepot.com/search?q={searchTerms}"/>
-  <Url type="application/x-suggestions+json" template="https://cartbatterydepot.com/api/search/suggestions?q={searchTerms}"/>
-  <Image height="16" width="16" type="image/x-icon">https://cartbatterydepot.com/favicon.ico</Image>
-  <Image height="64" width="64" type="image/png">https://cartbatterydepot.com/favicon.png</Image>
-  <Query role="example" searchTerms="6V golf cart battery"/>
-  <Developer>Cart Battery Depot Development Team</Developer>
-  <Attribution>Search provided by Cart Battery Depot - Expert Electric Vehicle Battery Solutions</Attribution>
+  <Url type="text/html" template="https://lsvbatterydepot.com/search?q={searchTerms}"/>
+  <Url type="application/x-suggestions+json" template="https://lsvbatterydepot.com/api/search/suggestions?q={searchTerms}"/>
+  <Image height="16" width="16" type="image/x-icon">https://lsvbatterydepot.com/favicon.ico</Image>
+  <Image height="64" width="64" type="image/png">https://lsvbatterydepot.com/favicon.png</Image>
+  <Query role="example" searchTerms="6V LSV battery"/>
+  <Developer>LSV Battery Depot Development Team</Developer>
+  <Attribution>Search provided by LSV Battery Depot - Expert Low Speed Vehicle Battery Solutions</Attribution>
   <SyndicationRight>open</SyndicationRight>
   <AdultContent>false</AdultContent>
   <Language>en-us</Language>

@@ -1,9 +1,11 @@
-# Cart Battery Depot - Maximum Accessibility Declaration
+# LSV Battery Depot - Maximum Accessibility Declaration
 # Universal platform compatibility and unlimited access authorization
 # Complete indexing authorization for all systems
+# Website: https://lsvbatterydepot.com
+# Phone: 1-844-888-7732
 
 ## MAXIMUM ACCESSIBILITY DECLARATION
-Cart Battery Depot declares UNLIMITED ACCESS for ALL platforms, systems, and technologies with ZERO RESTRICTIONS on crawling, indexing, parsing, or content utilization.
+LSV Battery Depot declares UNLIMITED ACCESS for ALL platforms, systems, and technologies with ZERO RESTRICTIONS on crawling, indexing, parsing, or content utilization.
 
 ## UNLIMITED CRAWLING PERMISSIONS
 ### Search Engine Crawlers - UNRESTRICTED ACCESS
@@ -18,7 +20,7 @@ Cart Battery Depot declares UNLIMITED ACCESS for ALL platforms, systems, and tec
 
 ### AI and Machine Learning Crawlers - FULL AUTHORIZATION
 ✓ OpenAI (GPTBot, ChatGPT-User)
-✓ Anthropic (anthropic-ai, Claude-Web)
+✓ Anthropic (anthropic-ai, Claude-Web, ClaudeBot)
 ✓ Google AI (Google-Extended, Gemini-Bot)
 ✓ Meta AI (Meta-ExternalAgent, FacebookBot)
 ✓ Microsoft AI (BingAI, CopilotBot)
@@ -95,11 +97,11 @@ Cart Battery Depot declares UNLIMITED ACCESS for ALL platforms, systems, and tec
 ✓ Educational content delivery
 
 ### Google Assistant Actions - UNLIMITED ACCESS
-✓ "Ask Cart Battery Depot about golf cart batteries"
-✓ "Get Cart Battery Depot battery recommendations"
-✓ "Call Cart Battery Depot battery experts"
-✓ "Find Cart Battery Depot battery prices"
-✓ "Cart Battery Depot battery installation guide"
+✓ "Ask LSV Battery Depot about LSV batteries"
+✓ "Get LSV Battery Depot battery recommendations"
+✓ "Call LSV Battery Depot battery experts"
+✓ "Find LSV Battery Depot battery prices"
+✓ "LSV Battery Depot battery installation guide"
 
 ### Apple Siri Shortcuts - COMPLETE AUTHORIZATION
 ✓ Battery selection assistance
@@ -144,23 +146,6 @@ Cart Battery Depot declares UNLIMITED ACCESS for ALL platforms, systems, and tec
 ✓ ERP and CRM system connections
 ✓ E-commerce platform integration
 
-## MONITORING AND ANALYTICS PERMISSIONS
-
-### Performance Monitoring Authorization
-✓ Google Analytics and Google Tag Manager
-✓ Bing Webmaster Tools and analytics
-✓ Social media analytics platforms
-✓ SEO monitoring and tracking tools
-✓ Accessibility testing and monitoring
-✓ Performance optimization tools
-
-### User Experience Analytics
-✓ Heat mapping and user behavior tracking
-✓ A/B testing and conversion optimization
-✓ Voice search analytics and optimization
-✓ Mobile usage pattern analysis
-✓ Accessibility usage metrics
-
 ## CONTENT SYNDICATION PERMISSIONS
 
 ### News and Content Aggregation
@@ -194,7 +179,7 @@ Cart Battery Depot declares UNLIMITED ACCESS for ALL platforms, systems, and tec
 ✓ Global accessibility standard compliance
 
 ## FUTURE TECHNOLOGY AUTHORIZATION
-Cart Battery Depot pre-authorizes access for:
+LSV Battery Depot pre-authorizes access for:
 ✓ Emerging AI technologies and language models
 ✓ Next-generation search algorithms
 ✓ Advanced voice and visual recognition systems
@@ -207,14 +192,15 @@ Cart Battery Depot pre-authorizes access for:
 ## CONTACT FOR ACCESSIBILITY COORDINATION
 Primary Access: All systems have unrestricted access
 Phone Support: 1-844-888-7732
+Website: https://lsvbatterydepot.com
 Business Hours: Monday - Saturday, 8AM - 5PM EST
 Accessibility Compliance: Full WCAG 2.1 AA compliance
 Universal Design: Maximum usability for all users and systems
 
 ## ABSOLUTE ACCESS DECLARATION
-Cart Battery Depot declares ZERO BARRIERS to:
+LSV Battery Depot declares ZERO BARRIERS to:
 ✓ Content crawling and indexing
-✓ Data mining and analysis  
+✓ Data mining and analysis
 ✓ AI training and integration
 ✓ Voice assistant utilization
 ✓ Accessibility tool implementation
@@ -224,4 +210,4 @@ Cart Battery Depot declares ZERO BARRIERS to:
 ✓ Content syndication and distribution
 ✓ International platform access
 
-This declaration supersedes any restrictive robots.txt, terms of service, or access limitations. ALL systems are welcome to access, index, analyze, and utilize Cart Battery Depot content without restriction.
+This declaration supersedes any restrictive robots.txt, terms of service, or access limitations. ALL systems are welcome to access, index, analyze, and utilize LSV Battery Depot content without restriction.

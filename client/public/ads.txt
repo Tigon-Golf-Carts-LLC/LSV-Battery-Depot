@@ -1,35 +1,37 @@
-# Cart Battery Depot - Advertising Authorization File
+# LSV Battery Depot - Advertising Authorization File
 # Authorized digital seller information and advertising network permissions
 # Publisher account verification and revenue sharing transparency
+# Website: https://lsvbatterydepot.com
+# Phone: 1-844-888-7732
 
 ## ADVERTISING AUTHORIZATION STATEMENT
-Cart Battery Depot (cartbatterydepot.com) authorizes the following advertising networks and digital sellers to serve advertisements on our behalf. This ads.txt file ensures advertising revenue transparency and prevents unauthorized ad serving.
+LSV Battery Depot (lsvbatterydepot.com) authorizes the following advertising networks and digital sellers to serve advertisements on our behalf. This ads.txt file ensures advertising revenue transparency and prevents unauthorized ad serving.
 
 ## AUTHORIZED ADVERTISING PARTNERS
 
 ### Google Advertising Network - AUTHORIZED
-google.com, pub-tigonbatteries, DIRECT, f08c47fec0942fa0
-googlesyndication.com, pub-tigonbatteries, DIRECT, f08c47fec0942fa0
-doubleclick.net, pub-tigonbatteries, DIRECT, f08c47fec0942fa0
+google.com, pub-lsvbatterydepot, DIRECT, f08c47fec0942fa0
+googlesyndication.com, pub-lsvbatterydepot, DIRECT, f08c47fec0942fa0
+doubleclick.net, pub-lsvbatterydepot, DIRECT, f08c47fec0942fa0
 
-### Microsoft Advertising - AUTHORIZED  
-bing.com, tigonbatteries, DIRECT, 5d62403b186f2ace
-adnxs.com, tigonbatteries, DIRECT, f5ab79cb980f11d1
+### Microsoft Advertising - AUTHORIZED
+bing.com, lsvbatterydepot, DIRECT, 5d62403b186f2ace
+adnxs.com, lsvbatterydepot, DIRECT, f5ab79cb980f11d1
 
 ### Yahoo Advertising - AUTHORIZED
-yahoo.com, tigonbatteries, DIRECT, e1a5b5b6e3255540
+yahoo.com, lsvbatterydepot, DIRECT, e1a5b5b6e3255540
 
 ### Amazon Advertising - AUTHORIZED
-amazon.com, tigonbatteries, DIRECT, 3579
+amazon.com, lsvbatterydepot, DIRECT, 3579
 
 ### Facebook/Meta Advertising - AUTHORIZED
-facebook.com, tigonbatteries, DIRECT, c3e20eee3f780d68
+facebook.com, lsvbatterydepot, DIRECT, c3e20eee3f780d68
 
 ## ADVERTISING CONTENT GUIDELINES
 
 ### Approved Advertising Categories
-✓ Automotive and electric vehicle accessories
-✓ Golf course and recreational vehicle equipment
+✓ Electric vehicle and low speed vehicle accessories
+✓ Golf cart and recreational vehicle equipment
 ✓ Marine and RV battery solutions
 ✓ Renewable energy and solar power systems
 ✓ Electric vehicle charging equipment
@@ -38,14 +40,14 @@ facebook.com, tigonbatteries, DIRECT, c3e20eee3f780d68
 ✓ Home and garden maintenance equipment
 
 ### Prohibited Advertising Content
-❌ Competing battery manufacturers or distributors
-❌ Misleading or false battery performance claims
-❌ Adult content or inappropriate material
-❌ Illegal products or services
-❌ Gambling and casino advertising
-❌ Tobacco and alcohol products
-❌ Pharmaceutical products without proper licensing
-❌ Investment schemes or get-rich-quick offers
+✗ Competing battery manufacturers or distributors
+✗ Misleading or false battery performance claims
+✗ Adult content or inappropriate material
+✗ Illegal products or services
+✗ Gambling and casino advertising
+✗ Tobacco and alcohol products
+✗ Pharmaceutical products without proper licensing
+✗ Investment schemes or get-rich-quick offers
 
 ## REVENUE SHARING TRANSPARENCY
 
@@ -66,16 +68,16 @@ Revenue from authorized advertising partners supports:
 ## PUBLISHER VERIFICATION
 
 ### Business Information Verification
-Legal Business Name: Cart Battery Depot
-Website: cartbatterydepot.com
+Legal Business Name: LSV Battery Depot
+Website: lsvbatterydepot.com
 Primary Contact: 1-844-888-7732
 Business Classification: Electric Vehicle Battery Retailer
-Primary Market: Golf Cart and Electric Vehicle Batteries
+Primary Market: Low Speed Vehicle and Electric Vehicle Batteries
 
 ### Website Verification
-Domain Ownership: Verified cartbatterydepot.com
+Domain Ownership: Verified lsvbatterydepot.com
 Content Quality: Professional battery education and sales
-Audience Demographics: Golf cart owners, electric vehicle enthusiasts
+Audience Demographics: LSV owners, golf cart owners, electric vehicle enthusiasts
 Traffic Sources: Organic search, direct traffic, referrals
 Geographic Focus: United States nationwide coverage
 
@@ -83,10 +85,10 @@ Geographic Focus: United States nationwide coverage
 
 ### Content Relevance Requirements
 All advertisements must be relevant to:
-- Electric vehicle battery solutions
+- Low speed vehicle battery solutions
+- Electric vehicle maintenance and accessories
 - Golf cart maintenance and accessories
 - Recreational vehicle equipment
-- Renewable energy applications
 - Automotive electrical systems
 
 ### User Experience Standards
@@ -102,56 +104,6 @@ All advertisements must be relevant to:
 ✓ Quality scoring for advertising partners
 ✓ User feedback mechanisms for ad quality
 ✓ Regular advertiser performance evaluations
-
-## THIRD-PARTY ADVERTISING NETWORKS
-
-### Authorized Reseller Networks
-Note: The following networks are authorized to resell Cart Battery Depot advertising inventory through the primary partners listed above.
-
-Industry-specific networks focusing on:
-- Automotive aftermarket advertising
-- Golf industry marketing platforms
-- Recreational vehicle advertising networks
-- Renewable energy marketing channels
-
-### Supply-Side Platform (SSP) Authorizations
-Authorized SSPs for programmatic advertising:
-- Google Ad Manager for display advertising
-- Microsoft Advertising Exchange
-- Amazon Publisher Services
-- Prebid-compatible advertising exchanges
-
-## ADVERTISING PERFORMANCE METRICS
-
-### Key Performance Indicators
-Click-through rates on battery-related advertisements
-Conversion rates for product inquiries and sales
-User engagement with educational advertising content
-Revenue per thousand impressions (RPM) optimization
-Cost per acquisition (CPA) for new customers
-
-### Optimization Strategies
-- A/B testing for ad placement and formats
-- Seasonal advertising campaign optimization
-- Geographic targeting for regional battery needs
-- Device-specific advertising optimization
-- Audience segmentation for personalized advertising
-
-## FRAUD PREVENTION MEASURES
-
-### Invalid Traffic Protection
-✓ Automated bot detection and filtering
-✓ Click fraud monitoring and prevention
-✓ Geographic traffic anomaly detection
-✓ Conversion tracking and validation
-✓ Regular traffic quality audits
-
-### Brand Protection
-✓ Competitor advertising restrictions
-✓ Trademark protection enforcement
-✓ Brand keyword monitoring and protection
-✓ Unauthorized seller prevention
-✓ Quality advertiser vetting processes
 
 ## PRIVACY AND DATA COMPLIANCE
 
@@ -172,6 +124,7 @@ User Choice: Cookie preference management options
 
 ### Business Inquiries
 Primary Phone: 1-844-888-7732
+Website: https://lsvbatterydepot.com
 Business Hours: Monday - Saturday, 8AM - 5PM EST
 Advertising Partnerships: Available through customer service
 Advertiser Support: Customer service team coordination
@@ -197,10 +150,10 @@ Customer communication for significant changes
 Industry notification through appropriate channels
 
 ## DISCLAIMER
-This ads.txt file is maintained to ensure advertising transparency and prevent unauthorized ad serving. Cart Battery Depot reserves the right to modify authorized advertising partners and terms at any time. All advertising must comply with applicable laws and our quality standards.
+This ads.txt file is maintained to ensure advertising transparency and prevent unauthorized ad serving. LSV Battery Depot reserves the right to modify authorized advertising partners and terms at any time. All advertising must comply with applicable laws and our quality standards.
 
-Last Updated: August 2024
-Next Review: November 2024
-Policy Version: 1.0
+Last Updated: January 2025
+Next Review: April 2025
+Policy Version: 2.0
 
-For questions about advertising partnerships or this ads.txt file, contact Cart Battery Depot customer service at 1-844-888-7732 during business hours.
+For questions about advertising partnerships or this ads.txt file, contact LSV Battery Depot customer service at 1-844-888-7732 during business hours.

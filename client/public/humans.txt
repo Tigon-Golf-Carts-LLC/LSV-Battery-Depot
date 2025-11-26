@@ -1,18 +1,20 @@
-# Cart Battery Depot - Website Team Information
+# LSV Battery Depot - Website Team Information
 # Website transparency and development team credits
+# Website: https://lsvbatterydepot.com
+# Phone: 1-844-888-7732
 
 ## WEBSITE DEVELOPMENT TEAM
 
 ### Project Overview
-Website: cartbatterydepot.com
+Website: lsvbatterydepot.com
 Industry: Electric Vehicle Battery Solutions
-Specialization: Golf Cart, LSV, NEV, MSV Batteries
+Specialization: Low Speed Vehicle (LSV), NEV, MSV, Golf Cart Batteries
 Launch: 2024
 Platform: Modern React-based e-commerce solution
 
 ### Business Leadership
-Company: Cart Battery Depot
-Focus: Premium electric vehicle battery solutions
+Company: LSV Battery Depot
+Focus: Premium low speed vehicle battery solutions
 Expertise: 96+ battery configurations across all technologies
 Customer Service: 1-844-888-7732
 Support Hours: Monday - Saturday, 8AM - 5PM EST
@@ -57,7 +59,7 @@ Deployment: Modern cloud hosting
 Analytics: Google Analytics, performance monitoring
 
 ### Design System
-Color Palette: Cart Battery Depot brand colors with accessibility focus
+Color Palette: LSV Battery Depot brand colors - Yellow (#edb620), Black (#000000), Green (#4fa35c)
 Typography: Inter font family for readability
 Components: Reusable component library
 Responsive: Mobile-first design approach
@@ -88,7 +90,7 @@ Blog Content: Industry insights and maintenance tips
 Technical Documentation: Installation and service guides
 
 ### SEO and Marketing
-Keyword Strategy: Comprehensive SEO targeting
+Keyword Strategy: Comprehensive SEO targeting for LSV batteries
 Local SEO: Geographic optimization for all markets
 Social Media: Open Graph and Twitter Card optimization
 Schema Markup: Structured data for rich snippets
@@ -119,14 +121,14 @@ User Feedback: Continuous user experience improvements
 
 ## BUSINESS CONTACT INFORMATION
 Primary Phone: 1-844-888-7732
-Website: cartbatterydepot.com
+Website: lsvbatterydepot.com
 Business Hours: Monday - Saturday, 8AM - 5PM EST
 Service Area: Nationwide United States
-Specialization: Electric Vehicle Battery Solutions
+Specialization: Low Speed Vehicle Battery Solutions
 
 ## LAST UPDATED
 Website Launch: 2024
-Last Major Update: August 2024
+Last Major Update: January 2025
 Content Review: Regular monthly updates
 Product Catalog: Real-time inventory updates
 Technical Documentation: Quarterly review and updates
@@ -165,4 +167,4 @@ Website Issues: Customer service team coordination
 Accessibility Support: Full assistance for assistive technology users
 Mobile Support: Responsive design optimization
 
-This website is a product of careful planning, expert development, and ongoing commitment to providing the best possible experience for Cart Battery Depot customers seeking electric vehicle battery solutions.
+This website is a product of careful planning, expert development, and ongoing commitment to providing the best possible experience for LSV Battery Depot customers seeking low speed vehicle battery solutions.

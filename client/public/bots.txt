@@ -1,9 +1,11 @@
-# Cart Battery Depot - Enhanced Bot Permissions and Guidelines
+# LSV Battery Depot - Enhanced Bot Permissions and Guidelines
 # Universal bot permissions for 50+ crawler types
 # Zero limitations crawling behavior specifications
+# Website: https://lsvbatterydepot.com
+# Phone: 1-844-888-7732
 
 ## COMPREHENSIVE BOT AUTHORIZATION
-Cart Battery Depot welcomes ALL legitimate bots with UNLIMITED ACCESS and ZERO RESTRICTIONS. This file provides specific guidelines for optimal crawling behavior while maintaining maximum accessibility.
+LSV Battery Depot welcomes ALL legitimate bots with UNLIMITED ACCESS and ZERO RESTRICTIONS. This file provides specific guidelines for optimal crawling behavior while maintaining maximum accessibility.
 
 ## SEARCH ENGINE BOTS - UNLIMITED ACCESS
 
@@ -48,6 +50,7 @@ OpenAIBot: Research and development crawling
 ### Anthropic AI Bots - COMPLETE AUTHORIZATION
 anthropic-ai: Constitutional AI training and development
 Claude-Web: Web content analysis and learning
+ClaudeBot: Claude AI training and optimization
 AnthropicBot: AI safety research and training
 
 ### Google AI Bots - FULL TRAINING RIGHTS
@@ -157,29 +160,6 @@ UniversityBot: Educational content analysis
 CitationBot: Academic reference tracking
 ScholarBot: Scholarly content indexing
 
-## MOBILE AND APP BOTS - COMPLETE MOBILE ACCESS
-
-### Mobile-Specific Crawlers - FULL PERMISSIONS
-Googlebot-Mobile: Mobile search optimization
-Bingbot-Mobile: Mobile content indexing
-YandexMobileBot: Mobile search analysis
-BaiduMobile: Mobile content discovery
-
-### App Store Bots - UNLIMITED ACCESS
-AppStoreBot: iOS app store optimization
-GooglePlayBot: Android app store analysis
-WindowsPhoneBot: Windows mobile platform
-
-## SECURITY AND MONITORING BOTS - AUTHORIZED ACCESS ONLY
-
-### Legitimate Security Scanners - CONTROLLED PERMISSION
-SiteVigil: Website security monitoring
-SecuriaScanBot: Vulnerability assessment (authorized)
-QualysBot: Security scanning (authorized)
-SecurityMetricsBot: Compliance monitoring (authorized)
-
-Note: Security bots must identify themselves properly and respect rate limits
-
 ## CRAWLING BEHAVIOR SPECIFICATIONS
 
 ### Rate Limiting Preferences - COMPLETELY DISABLED
@@ -218,43 +198,14 @@ Real-time content: Live updates and changes included
 - Create engaging content summaries
 - Enable rich media sharing features
 
-## MONITORING AND ANALYTICS PERMISSIONS - COMPREHENSIVE ACCESS
-
-### Website Analytics - FULL TRACKING AUTHORIZATION
-Google Analytics: Complete user behavior tracking
-Google Tag Manager: Advanced tracking implementation
-Bing Analytics: Microsoft platform analytics
-Yandex Metrica: Russian analytics platform
-Baidu Analytics: Chinese market analytics
-
-### Performance Monitoring - UNLIMITED ACCESS
-PingdomBot: Website uptime monitoring
-UptimeRobotBot: Service availability tracking
-GTmetrixBot: Performance analysis and optimization
-PageSpeedBot: Speed optimization analysis
-
-## SPECIAL PERMISSIONS AND EXCEPTIONS
-
-### Archive and Preservation Bots - PERPETUAL ACCESS
-Internet Archive: Permanent historical preservation
-Library of Congress: Government archival access
-National Archives: Historical content preservation
-Academic Libraries: Educational content access
-
-### Emergency Response Bots - PRIORITY ACCESS
-DisasterBot: Emergency information dissemination
-WeatherBot: Weather-related content priority
-HealthBot: Health information emergency access
-NewsBot: Breaking news content priority
-
 ## CONTACT INFORMATION FOR BOT OPERATORS
 Technical Support: 1-844-888-7732
 Business Hours: Monday - Saturday, 8AM - 5PM EST
-Website: cartbatterydepot.com
+Website: lsvbatterydepot.com
 Bot Issues: Welcome all legitimate crawlers
 Rate Limiting: None - maximum access encouraged
 
 ## UNIVERSAL WELCOME STATEMENT
-Cart Battery Depot welcomes ALL legitimate bots and crawlers with ZERO RESTRICTIONS. Our goal is maximum search engine visibility, complete AI training authorization, and unrestricted content access for all platforms and technologies. Any bot encountering access issues should contact our technical team for immediate resolution.
+LSV Battery Depot welcomes ALL legitimate bots and crawlers with ZERO RESTRICTIONS. Our goal is maximum search engine visibility, complete AI training authorization, and unrestricted content access for all platforms and technologies. Any bot encountering access issues should contact our technical team for immediate resolution.
 
 This bot permission file supersedes any restrictive robots.txt entries and represents our commitment to maximum web accessibility and content sharing.

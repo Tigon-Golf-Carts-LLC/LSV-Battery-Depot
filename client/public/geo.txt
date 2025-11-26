@@ -1,76 +1,78 @@
-# Cart Battery Depot - Geographic SEO Information
+# LSV Battery Depot - Geographic SEO Information
 # Complete location data and regional market information
 # Local SEO optimization and service area documentation
+# Website: https://lsvbatterydepot.com
+# Phone: 1-844-888-7732
 
 ## PRIMARY BUSINESS LOCATION
-Business Name: Cart Battery Depot
-Service Type: Electric Vehicle Battery Specialist
-Primary Focus: Golf Cart Batteries, LSV, NEV, MSV Solutions
+Business Name: LSV Battery Depot
+Service Type: Low Speed Vehicle Battery Specialist
+Primary Focus: LSV Batteries, NEV Batteries, MSV Batteries, Golf Cart Batteries
 Phone: 1-844-888-7732
 Service Hours: Monday - Saturday, 8AM - 5PM EST
-Website: cartbatterydepot.com
+Website: lsvbatterydepot.com
 
 ## NATIONWIDE SERVICE AREA
-Cart Battery Depot provides nationwide coverage across all 50 United States with fast shipping and expert support.
+LSV Battery Depot provides nationwide coverage across all 50 United States with fast shipping and expert support.
 
 ### Regional Coverage Areas
 
 #### Northeast Region
 States: Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania
 Major Markets: Boston, New York City, Philadelphia, Hartford, Providence
-Golf Course Density: High concentration of private and public golf courses
+LSV Density: Growing adoption in retirement communities and college campuses
 Climate Considerations: Cold weather battery performance optimization
 Seasonal Patterns: Spring battery replacement surge, winter storage needs
 
-#### Southeast Region  
+#### Southeast Region
 States: Delaware, Maryland, Virginia, West Virginia, North Carolina, South Carolina, Georgia, Florida, Kentucky, Tennessee, Alabama, Mississippi, Arkansas, Louisiana
-Major Markets: Miami, Atlanta, Charleston, Virginia Beach, Myrtle Beach
-Golf Course Density: Year-round golf climate, retirement communities
+Major Markets: Miami, Atlanta, Charleston, Virginia Beach, The Villages
+LSV Density: Year-round use climate, major retirement communities, beach communities
 Climate Considerations: High temperature performance, humidity resistance
 Seasonal Patterns: Consistent year-round demand, hurricane preparation
 
 #### Midwest Region
 States: Ohio, Indiana, Illinois, Michigan, Wisconsin, Minnesota, Iowa, Missouri, North Dakota, South Dakota, Nebraska, Kansas
 Major Markets: Chicago, Detroit, Cleveland, Minneapolis, St. Louis
-Golf Course Density: Seasonal golf operations, extensive public courses
+LSV Density: Growing in gated communities and industrial facilities
 Climate Considerations: Extreme temperature variations, winter storage
 Seasonal Patterns: Strong spring/summer demand, off-season service
 
 #### Southwest Region
 States: Texas, Oklahoma, New Mexico, Arizona
-Major Markets: Dallas, Houston, Austin, Phoenix, Tucson, Albuquerque
-Golf Course Density: Desert golf courses, resort communities
+Major Markets: Dallas, Houston, Austin, Phoenix, Tucson, Albuquerque, Scottsdale
+LSV Density: Resort communities, retirement destinations, year-round use
 Climate Considerations: Extreme heat performance, UV resistance
 Seasonal Patterns: Winter peak season, summer heat challenges
 
 #### West Region
 States: California, Nevada, Utah, Colorado, Wyoming, Montana, Idaho, Washington, Oregon, Alaska, Hawaii
-Major Markets: Los Angeles, San Francisco, Las Vegas, Denver, Seattle
-Golf Course Density: Diverse climates, mountain and coastal courses
+Major Markets: Los Angeles, San Francisco, Las Vegas, Denver, Seattle, San Diego
+LSV Density: Diverse applications, strong environmental focus, beach communities
 Climate Considerations: Altitude effects, coastal humidity, desert heat
 Seasonal Patterns: Year-round demand in coastal areas, seasonal mountain regions
 
 ## LOCAL MARKET SPECIALIZATIONS
 
-### Golf Course Communities
+### LSV Community Applications
 Primary Markets:
-- Retirement communities with golf course access
-- Private country clubs and resort golf courses
-- Municipal golf courses and public facilities
-- Golf cart rental and fleet operations
+- Retirement communities with LSV transportation
+- Gated residential communities
+- Beach and coastal communities
+- Resort and vacation destinations
 
 Service Characteristics:
 - Fleet battery replacement programs
 - Bulk purchasing and installation services
 - Seasonal maintenance and storage programs
-- Performance optimization for course conditions
+- Performance optimization for local conditions
 
-### Residential Communities
+### Golf Course Communities
 Target Areas:
-- Gated communities with golf cart transportation
-- Beach communities with LSV/NEV regulations
-- Retirement villages and active adult communities
-- Lakefront and recreational property areas
+- Private country clubs and resort golf courses
+- Municipal golf courses and public facilities
+- Golf cart rental and fleet operations
+- Residential golf communities
 
 Service Characteristics:
 - Individual owner consultation and service
@@ -113,13 +115,13 @@ Humid Regions:
 - Extended service life in humid conditions
 
 ### Vehicle Application Expertise
-Golf Cart Applications by Region:
-- Course terrain and battery requirement variations
-- Regional golf cart brand preferences and compatibility
+LSV Applications by Region:
+- Regional terrain and battery requirement variations
+- State-specific LSV brand preferences and compatibility
 - Local electrical system standards and requirements
 - Regional service provider networks and support
 
-LSV/NEV Applications by State:
+LSV/NEV Regulations by State:
 - State-specific regulations and compliance requirements
 - Local traffic laws and speed restrictions
 - Registration and inspection requirements by jurisdiction
@@ -128,47 +130,47 @@ LSV/NEV Applications by State:
 ## GEOGRAPHIC KEYWORD TARGETING
 
 ### State-Level Keywords
-Primary: "[State] golf cart batteries"
-Secondary: "golf cart battery [state]"
-Local: "[state] electric vehicle batteries"
-Specific: "Cart Battery Depot batteries [state]"
+Primary: "[State] lsv batteries"
+Secondary: "lsv battery [state]"
+Local: "[state] low speed vehicle batteries"
+Specific: "LSV Battery Depot batteries [state]"
 
 Example State Variations:
-- "Florida golf cart batteries"
-- "California electric vehicle batteries" 
-- "Texas golf cart battery service"
-- "Arizona golf cart battery installation"
+- "Florida lsv batteries"
+- "California low speed vehicle batteries"
+- "Texas lsv battery service"
+- "Arizona lsv battery installation"
 
 ### City-Level Keywords
 Major Metro Areas:
-- "Miami golf cart batteries"
-- "Phoenix golf cart battery service"
-- "Los Angeles electric vehicle batteries"
-- "Chicago golf cart battery replacement"
+- "Miami lsv batteries"
+- "Phoenix lsv battery service"
+- "Los Angeles low speed vehicle batteries"
+- "Chicago lsv battery replacement"
 
 Secondary Cities:
-- "Myrtle Beach golf cart batteries"
-- "Scottsdale golf cart battery service"
-- "Naples Florida golf cart batteries"
-- "Palm Springs electric vehicle batteries"
+- "The Villages Florida lsv batteries"
+- "Scottsdale lsv battery service"
+- "Naples Florida lsv batteries"
+- "Palm Springs low speed vehicle batteries"
 
 ### Local Service Keywords
 Installation Services:
-- "golf cart battery installation [city]"
-- "mobile golf cart battery service [region]"
-- "golf cart battery replacement [area]"
+- "lsv battery installation [city]"
+- "mobile lsv battery service [region]"
+- "lsv battery replacement [area]"
 
 Emergency Services:
-- "emergency golf cart battery [city]"
-- "same day golf cart battery [region]"
-- "golf cart battery repair [area]"
+- "emergency lsv battery [city]"
+- "same day lsv battery [region]"
+- "lsv battery repair [area]"
 
 ### Regional Modifier Keywords
 Geographic Modifiers:
 - "near me" variations for local search
 - "in [city/state]" specific location targeting
-- "[region] golf cart battery specialist"
-- "local [area] electric vehicle battery expert"
+- "[region] lsv battery specialist"
+- "local [area] low speed vehicle battery expert"
 
 ## SERVICE DELIVERY GEOGRAPHIC DATA
 
@@ -186,15 +188,15 @@ Installation Service Areas:
 - DIY installation support with phone guidance
 
 ### Regional Service Partnerships
-Golf Course Relationships:
-- Direct relationships with course maintenance departments
-- Pro shop recommendation and referral programs
+Community Relationships:
+- Direct relationships with retirement community managers
+- HOA recommendation and referral programs
 - Bulk fleet service contracts and agreements
 - Seasonal maintenance and replacement programs
 
 Local Dealer Networks:
 - Regional battery and automotive dealers
-- Golf cart sales and service centers
+- LSV sales and service centers
 - Marine and RV dealer partnerships
 - Fleet management service providers
 
@@ -202,15 +204,15 @@ Local Dealer Networks:
 
 ### Regional Demand Patterns
 High-Volume Markets:
-- Florida: Year-round golf, retirement communities
-- California: Diverse applications, environmental regulations
-- Arizona: Resort golf courses, extreme heat conditions
+- Florida: Year-round LSV use, retirement communities
+- California: Environmental focus, diverse applications
+- Arizona: Resort communities, extreme heat conditions
 - Texas: Large market size, diverse applications
-- North Carolina: Golf course density, moderate climate
+- North Carolina: Coastal communities, moderate climate
 
 Seasonal Markets:
 - Northeast: Spring replacement surge, winter storage
-- Midwest: Seasonal golf operations, weather-related stress
+- Midwest: Seasonal operations, weather-related stress
 - Mountain States: Altitude considerations, seasonal access
 - Pacific Northwest: Humidity management, year-round use
 
@@ -219,9 +221,9 @@ Market Leaders by Area:
 - Interstate Battery presence and market share
 - Trojan Battery regional distribution strength
 - Local independent dealers and service providers
-- Golf course preferred vendor relationships
+- Community preferred vendor relationships
 
-Cart Battery Depot Competitive Advantages:
+LSV Battery Depot Competitive Advantages:
 - Nationwide consistent service and support
 - Expert phone consultation regardless of location
 - Comprehensive product line for all applications
@@ -230,6 +232,7 @@ Cart Battery Depot Competitive Advantages:
 ## CONTACT INFORMATION FOR GEOGRAPHIC SERVICES
 National Customer Service: 1-844-888-7732
 Service Hours: Monday - Saturday, 8AM - 5PM EST
+Website: https://lsvbatterydepot.com
 Coverage Area: All 50 United States
 Emergency Support: Available during business hours
 Mobile Service: Coordination available in major markets
